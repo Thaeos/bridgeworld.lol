@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import Navigation from '@/components/Navigation';
 
 export const metadata: Metadata = {
   title: 'Bridgeworld Portal | Atlas Mines',
   description: 'Interactive web experience for Bridgeworld that unlocks a portal at the Atlas Mines when the Key and Map are aligned.',
-  keywords: ['bridgeworld', 'treasuredao', 'atlas mines', 'portal', 'covenant', 'arbitrum'],
+  keywords: ['bridgeworld', 'treasuredao', 'atlas mines', 'portal', 'covenant', 'arbitrum', 'ens', 'uniswap'],
   authors: [{ name: 'tig0_0bitties' }],
   icons: {
     icon: '/favicon.ico',
@@ -33,7 +34,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       </head>
       <body className="antialiased">
-        {children}
+        <Navigation />
+        <div className="pt-20">
+          {children}
+        </div>
       </body>
     </html>
   );

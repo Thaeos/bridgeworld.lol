@@ -76,6 +76,34 @@ export const CONTRACTS = {
   arweave: {
     txId: 'vQSMpXuEy9NrcjDsoQK2RxHxGKTyvCWsqFjzqSnPMck',
     gateway: 'https://arweave.net/vQSMpXuEy9NrcjDsoQK2RxHxGKTyvCWsqFjzqSnPMck'
+  },
+  // 22 TreasureDAO Contracts (Aleph through Taw)
+  treasureDAO: {
+    ens: {
+      domain: 'θεός°•.eth',
+      owner: '0x9B1D38e00898625BBeECE55d39109A907A3fcFfA',
+      registry: '0xfa05997C66437dCCAe860af334b30d69E0De24DC'
+    },
+    magic: {
+      address: '0x539bdE0d7Dbd336b79148AA742883198BBF60342',
+      glyph: '𐡀',
+      identity: 82,
+      verified: true
+    },
+    network: 'Arbitrum One',
+    chainId: 42161
+  },
+  // THO Coin (.x402 Contract)
+  tho: {
+    contract: '0x233f3956d82bfea9E78B2BdB0a9D245193881870',
+    ticker: 'THO',
+    name: 'THO Coin',
+    creator: '0x9B1D38e00898625BBeECE55d39109A907A3fcFfA',
+    network: 'Base',
+    chainId: 8453,
+    pool: '0xc0B518AD8f598D1F830c357f31295E0fEC3dcb58',
+    poolUrl: 'https://dexscreener.com/base/0xc0B518AD8f598D1F830c357f31295E0fEC3dcb58',
+    explorer: 'https://basescan.org/address/0x233f3956d82bfea9E78B2BdB0a9D245193881870'
   }
 } as const;
 
