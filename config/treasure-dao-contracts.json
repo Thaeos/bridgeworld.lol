@@ -323,6 +323,15 @@
     "service": "Ethermail",
     "service_url": "https://ethermail.io"
   },
+  "aifrens": {
+    "platform": "AI Frens",
+    "platform_url": "https://aifrens.lol",
+    "profile_url": "https://aifrens.lol/platform/fren/0xd3f6bbab74e3b03c0e079f4817e4b04682c16682",
+    "address": "0xd3f6bbab74e3b03c0e079f4817e4b04682c16682",
+    "network": "Ethereum Mainnet",
+    "chain_id": 1,
+    "description": "AI Frens platform profile for community engagement"
+  },
   "updated": "2026-01-14",
-  "version": "2.0"
+  "version": "2.1"
 }

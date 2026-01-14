@@ -41,6 +41,7 @@ export default function Home() {
     { label: 'Contracts', value: `${verified.length}/${contracts.length} Verified`, href: `/contracts`, icon: '📜' },
     { label: 'THO Coin', value: tho.ticker, href: `/tho`, icon: '🪙' },
     { label: 'Master Key', value: 'NFT', href: `/nft`, icon: '🔑' },
+    { label: 'AI Frens', value: 'Profile', href: `/aifrens`, icon: '🤖' },
   ];
 
   return (

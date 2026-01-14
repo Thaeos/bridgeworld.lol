@@ -14,6 +14,7 @@ export default function Navigation() {
     { href: '/tho', label: 'THO Coin', icon: '🪙' },
     { href: '/swap', label: 'Swap', icon: '💱' },
     { href: '/nft', label: 'Master Key', icon: '🔑' },
+    { href: '/aifrens', label: 'AI Frens', icon: '🤖' },
   ];
 
   return (
