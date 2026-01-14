@@ -26,7 +26,15 @@ export default function AIFrensProfile() {
               <span className="text-white ml-2">{aifrens.platform}</span>
             </div>
             <div>
-              <span className="text-gray-400">Address:</span>
+              <span className="text-gray-400">Fren Contract:</span>
+              <span className="text-white ml-2 font-mono text-xs">{aifrens.frenContract}</span>
+            </div>
+            <div>
+              <span className="text-gray-400">Fren Wallet:</span>
+              <span className="text-white ml-2 font-mono text-xs">{aifrens.frenWallet}</span>
+            </div>
+            <div>
+              <span className="text-gray-400">Profile Address:</span>
               <span className="text-white ml-2 font-mono text-xs">{aifrens.address}</span>
             </div>
             <div>
@@ -48,6 +56,22 @@ export default function AIFrensProfile() {
             className="block w-full px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white rounded-lg font-semibold text-center transition-colors"
           >
             View AI Frens Profile →
+          </a>
+          <a
+            href={`https://etherscan.io/address/${aifrens.frenContract}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-center transition-colors text-sm"
+          >
+            View Fren Contract on Etherscan
+          </a>
+          <a
+            href={`https://etherscan.io/address/${aifrens.frenWallet}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full px-6 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg text-center transition-colors text-sm"
+          >
+            View Fren Wallet on Etherscan
           </a>
           <a
             href={aifrens.platformUrl}

@@ -327,6 +327,8 @@
     "platform": "AI Frens",
     "platform_url": "https://aifrens.lol",
     "profile_url": "https://aifrens.lol/platform/fren/0xd3f6bbab74e3b03c0e079f4817e4b04682c16682",
+    "fren_contract": "0xD3f6bbAB74E3B03c0e079f4817E4b04682C16682",
+    "fren_wallet": "0xE02Fe6B291C650d74102c6A1EEc41A4A0b7165F5",
     "address": "0xd3f6bbab74e3b03c0e079f4817e4b04682c16682",
     "network": "Ethereum Mainnet",
     "chain_id": 1,

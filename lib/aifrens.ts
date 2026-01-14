@@ -9,6 +9,8 @@ export const AIFRENS = {
   platform: contractsData.aifrens.platform,
   platformUrl: contractsData.aifrens.platform_url,
   profileUrl: contractsData.aifrens.profile_url,
+  frenContract: contractsData.aifrens.fren_contract,
+  frenWallet: contractsData.aifrens.fren_wallet,
   address: contractsData.aifrens.address,
   network: contractsData.aifrens.network,
   chainId: contractsData.aifrens.chain_id,

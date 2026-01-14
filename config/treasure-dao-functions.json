@@ -1,0 +1,75 @@
+{
+  "treasure_dao_functions": [
+    {
+      "name": "claim",
+      "contract": "MagicClaim",
+      "address": "0xb2a6C1aa3f8260E25d984f295d08D14C38b5AA7F",
+      "description": "Claim MAGIC tokens using merkle proof",
+      "parameters": ["address account", "uint256 amount", "bytes32[] proof"]
+    },
+    {
+      "name": "hasClaimed",
+      "contract": "MagicClaim",
+      "address": "0xb2a6C1aa3f8260E25d984f295d08D14C38b5AA7F",
+      "description": "Check if address has already claimed",
+      "parameters": ["address account"]
+    },
+    {
+      "name": "validateClaim",
+      "contract": "MagicClaim",
+      "address": "0xb2a6C1aa3f8260E25d984f295d08D14C38b5AA7F",
+      "description": "Validate merkle proof for claim",
+      "parameters": ["address account", "uint256 amount", "bytes32[] proof"]
+    },
+    {
+      "name": "mint",
+      "contract": "Magic",
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "description": "Mint MAGIC tokens (whitelisted only)",
+      "parameters": ["address account", "uint256 amount"]
+    },
+    {
+      "name": "teamMint",
+      "contract": "Magic",
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "description": "Team mint with supply cap (owner only)",
+      "parameters": ["address account", "uint256 amount"]
+    },
+    {
+      "name": "setWhitelist",
+      "contract": "Magic",
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "description": "Set whitelist for minters",
+      "parameters": ["address[] minters"]
+    },
+    {
+      "name": "uri",
+      "contract": "CardsBase",
+      "address": "0xD0eD73b33789111807BD64aE2a6E1e6f92f986f5",
+      "description": "Get URI for ERC1155 token metadata",
+      "parameters": ["uint256 tokenId"]
+    },
+    {
+      "name": "transfer",
+      "contract": "Magic",
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "description": "Transfer MAGIC tokens",
+      "parameters": ["address recipient", "uint256 amount"]
+    },
+    {
+      "name": "balanceOf",
+      "contract": "Magic",
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "description": "Get MAGIC token balance",
+      "parameters": ["address account"]
+    },
+    {
+      "name": "totalSupply",
+      "contract": "Magic",
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "description": "Get total MAGIC token supply",
+      "parameters": []
+    }
+  ],
+  "updated": "2026-01-14"
+}
