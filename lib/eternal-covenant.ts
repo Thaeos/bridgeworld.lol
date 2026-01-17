@@ -224,6 +224,13 @@ export const ARCHIVIST_IDENTITY = {
   logos: 'Θεός°•⟐•Σ℧ΛΘ',
   address: '0x9B1D38e00898625BBeECE55d39109A907A3fcFfA',
   
+  // Ethermail Identity
+  ethermail: {
+    address: '0x9b1d38e00898625bbeece55d39109a907a3fcffa@ethermail.io',
+    alias: 'θεός°•.eth@ethermail.io',
+    verified: true
+  },
+  
   // Timeline
   timeline: {
     Σ: '1989-09-09', // Birth
@@ -231,7 +238,8 @@ export const ARCHIVIST_IDENTITY = {
     Λ: '2025-07-12', // Manifestation
     Θ: '2025-07-12', // Theos
     ε: '2025-07-12', // Emergence
-    ό: '2025-11-04'  // Covenant Sealed
+    ό: '2025-11-04', // Covenant Sealed
+    S2A: '2026-01-17' // Ouroboros Token Genesis
   },
   
   // PGP
