@@ -188,10 +188,13 @@ export const OUROBOROS_TOKEN = {
   
   // Genesis Transaction
   genesis: {
-    txHash: '0xca996f5335', // Transaction hash (truncated in UI)
-    timestamp: '2026-01-16',
+    txHash: '0xca996f5335', // Token creation (truncated in UI)
+    fundingTx: '0xa80908fee43ae048a3b2bb876fd9d6a98b96b3f23553cdb0697ae5dd89552a18',
+    fundingFrom: '0x9B1D38e00898625BBeECE55d39109A907A3fcFfA', // The Archivist
+    timestamp: '2026-01-17T08:49:25Z',
     dex: 'Uniswap v3',
-    launchPlatform: '402pad.lol'
+    launchPlatform: '402pad.lol',
+    basescan: 'https://basescan.org/tx/0xa80908fee43ae048a3b2bb876fd9d6a98b96b3f23553cdb0697ae5dd89552a18'
   },
   
   // Symbolic Encoding
