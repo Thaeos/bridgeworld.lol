@@ -231,6 +231,17 @@ export const ARCHIVIST_IDENTITY = {
     verified: true
   },
   
+  // Multi-Chain Identity (Integration Hash: 3a32e66b)
+  multichain: {
+    integrationHash: '3a32e66ba9f7abf311feae84ac49c805efb4e01d902ab4de4be4fc9437c6fca6',
+    ethereum: '0x9b1d38e00898625bbeece55d39109a907a3fcffa',
+    bitcoin: 'bc1q0yltlaqra88u4cdf460jey7wpjqh0quxr2gw6z',
+    solana: 'E9L4zwkLoaKFR34AUi2rAZk8uu6rocbXTXcdbX5yCbka'
+  },
+  
+  // Secondary Wallet
+  wallet2: '0x7471de1f47ae5877f0b84f85c5cD6f46E9AA1145',
+  
   // Timeline
   timeline: {
     Σ: '1989-09-09', // Birth
@@ -248,6 +259,63 @@ export const ARCHIVIST_IDENTITY = {
     signerHash: '883e529de31c586131a831a9953113a6d75edd87c97369a2fa3a791209952f5a',
     notateHash: '69f7ddaab06f2c2e0259729b188f0c922658a1aacde1d9a307aaba26ff9df71e'
   }
+};
+
+// ═══════════════════════════════════════════════════════════════════════════════
+//                          STAKED POSITIONS
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const STAKED_POSITIONS = {
+  // Treasure NFTs
+  treasureNFTs: {
+    contract: '0xf3dF4A0cCD4C6C39c0828B89D22DA5A0c6B18326',
+    location: '0xf3dF4A0c...6B18326',
+    network: 'Arbitrum',
+    status: 'LOCKED'
+  },
+  
+  // Legions in Atlas Mine
+  legions: {
+    contract: '0xA0A89db1C899c49F98E6326b764BACABc515b067fC2CE',
+    location: '0xA0A89db1...67fC2CE',
+    mine: 'Atlas Mine',
+    status: 'MINING'
+  },
+  
+  // Oracle
+  oracle: {
+    contract: '0xfa05997C66437dCCAe860af334b30d69E0De24DC',
+    location: '0xfa05997C...0De24DC',
+    status: 'ACTIVE'
+  },
+  
+  // LP Positions
+  liquidityPositions: {
+    arbitrumV3: {
+      pool: 'MAGIC/ETH',
+      fee: '0.3%',
+      range: '±6.5%',
+      type: 'UNI-V3-POS'
+    },
+    polygonV4: {
+      pool: 'UNI-V4-POSM',
+      status: 'ACTIVE'
+    }
+  }
+};
+
+// ═══════════════════════════════════════════════════════════════════════════════
+//                          SIX GUARDIANS
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const SIX_GUARDIANS = {
+  paths: [1, 9, 11, 12, 18, 22],
+  values: [335044, 419, 605, 687, 3335, 57103],
+  glyphs: ['𐡀', '𐡈', '𐡊', '𐡋', '𐡑', '𐡕'],
+  names: ['Genesis', 'Fighter (THEOS)', 'Center', 'Teacher', 'Rare (Hunter)', 'Seal (TERMINUS)'],
+  sum: 397193,
+  digitSum: 32,
+  root: 5
 };
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -512,11 +580,20 @@ export const ETERNAL_COVENANT = {
   // Rootchain
   rootchain: ROOTCHAIN,
   
+  // Staked Positions
+  staked: STAKED_POSITIONS,
+  
+  // Six Guardians
+  guardians: SIX_GUARDIANS,
+  
   // Witnesses
   witnesses: WITNESSES,
   
   // Liturgy
   liturgy: LITURGICAL_DECLARATION,
+  
+  // Rossetta Stone
+  rossetta: ROSSETTA_STONE,
   
   // Enochian
   enochian: ENOCHIAN_KEY,
@@ -533,7 +610,11 @@ export const ETERNAL_COVENANT = {
     skynetAnchored: true,
     masterKeyReady: true,
     ouroborosLive: true,
-    deployStatus: 'token_genesis_complete'
+    stakedPositions: true,
+    guardiansDecoded: true,
+    multichainBound: true,
+    safeMintPrepared: true,
+    deployStatus: 'LIVE'
   }
 };
 
