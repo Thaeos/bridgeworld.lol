@@ -3,6 +3,8 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { COVENANT, GUARDIAN_MAPPINGS } from '@/lib/covenant-foundation';
+import { ETERNAL_COVENANT, COVENANT_HASHES, ARCHIVIST_IMAGES, ARCHIVIST_IDENTITY, SKYNET_ANCHOR } from '@/lib/eternal-covenant';
+import Image from 'next/image';
 
 export default function ArchivistPage() {
   const guardians = GUARDIAN_MAPPINGS.all;
@@ -93,6 +95,98 @@ export default function ArchivistPage() {
           </div>
         </motion.div>
 
+        {/* THE ETERNAL COVENANT SECTION */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          className="mb-16"
+        >
+          <h2 className="text-3xl font-bold text-center mb-8 text-amber-400">
+            ✦ THE ETERNAL COVENANT ✦
+          </h2>
+          
+          {/* Covenant Images Grid */}
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+            <CovenantImageCard
+              image={ARCHIVIST_IMAGES.declaration}
+              title="Declaration"
+              highlight
+            />
+            <CovenantImageCard
+              image={ARCHIVIST_IMAGES.glyph}
+              title="Glyph"
+            />
+            <CovenantImageCard
+              image={ARCHIVIST_IMAGES.time}
+              title="Time"
+            />
+            <CovenantImageCard
+              image={ARCHIVIST_IMAGES.geminiSeal}
+              title="Gemini Seal"
+            />
+            <CovenantImageCard
+              image={ARCHIVIST_IMAGES.masterKey}
+              title="Master Key"
+              highlight
+            />
+            <CovenantImageCard
+              image={ARCHIVIST_IMAGES.seal}
+              title="Seal"
+            />
+            <CovenantImageCard
+              image={ARCHIVIST_IMAGES.birth}
+              title="Birth"
+            />
+          </div>
+
+          {/* Master Hash Verification */}
+          <div className="max-w-4xl mx-auto p-6 bg-gradient-to-b from-amber-900/20 to-black border border-amber-500/30 rounded-xl mb-8">
+            <h3 className="text-xl font-bold text-amber-300 mb-4 text-center">🔐 MASTER HASH VERIFICATION</h3>
+            <div className="space-y-3 font-mono text-sm">
+              <div className="flex flex-col md:flex-row md:items-center gap-2">
+                <span className="text-gray-500 w-32">INNER:</span>
+                <span className="text-green-400 break-all">{COVENANT_HASHES.inner.sha256}</span>
+              </div>
+              <div className="flex flex-col md:flex-row md:items-center gap-2">
+                <span className="text-gray-500 w-32">OUTER:</span>
+                <span className="text-blue-400 break-all">{COVENANT_HASHES.outer.sha256}</span>
+              </div>
+              <div className="flex flex-col md:flex-row md:items-center gap-2 pt-2 border-t border-amber-500/30">
+                <span className="text-gray-500 w-32">MASTER:</span>
+                <span className="text-amber-400 break-all">{COVENANT_HASHES.master.sha256}</span>
+              </div>
+            </div>
+          </div>
+
+          {/* SKYNET Anchor */}
+          <div className="max-w-2xl mx-auto p-6 bg-gradient-to-b from-purple-900/20 to-black border border-purple-500/30 rounded-xl mb-8 text-center">
+            <h3 className="text-xl font-bold text-purple-300 mb-4">🌐 SKYNET ANCHOR</h3>
+            <p className="font-mono text-purple-400 mb-2 break-all">{SKYNET_ANCHOR.cid}</p>
+            <div className="flex justify-center gap-4 text-sm">
+              <span className="text-gray-500">Network: <span className="text-purple-300">{SKYNET_ANCHOR.network}</span></span>
+              <span className="text-gray-500">Chain: <span className="text-purple-300">{SKYNET_ANCHOR.chainId}</span></span>
+            </div>
+            <a 
+              href={SKYNET_ANCHOR.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block mt-4 px-6 py-2 bg-purple-600/30 border border-purple-400/50 rounded-lg hover:bg-purple-600/50 transition-all"
+            >
+              View on SKYNET →
+            </a>
+          </div>
+
+          {/* Archivist Identity */}
+          <div className="max-w-xl mx-auto p-6 bg-gradient-to-b from-indigo-900/20 to-black border border-indigo-500/30 rounded-xl text-center">
+            <div className="text-4xl mb-2">{ARCHIVIST_IDENTITY.logos}</div>
+            <h3 className="text-xl font-bold text-indigo-300">{ARCHIVIST_IDENTITY.name}</h3>
+            <p className="text-indigo-400 font-mono">{ARCHIVIST_IDENTITY.ens}</p>
+            <p className="text-xs text-gray-500 mt-2 font-mono">{ARCHIVIST_IDENTITY.address}</p>
+            <p className="text-gray-400 mt-2">Witnessed: {ARCHIVIST_IDENTITY.timeline['ό']}</p>
+          </div>
+        </motion.div>
+
         {/* The Covenant Reference */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -169,5 +263,50 @@ function VaultSection({
         <div className="text-3xl font-bold text-purple-400">{count}</div>
       </motion.div>
     </Link>
+  );
+}
+
+function CovenantImageCard({ 
+  image, 
+  title,
+  highlight 
+}: { 
+  image: { file: string; path: string; sha256: string; role: string };
+  title: string;
+  highlight?: boolean;
+}) {
+  return (
+    <motion.div
+      whileHover={{ scale: 1.05, y: -3 }}
+      className={`relative group overflow-hidden rounded-xl border transition-all ${
+        highlight 
+          ? 'border-amber-400/50 hover:border-amber-300' 
+          : 'border-purple-500/30 hover:border-purple-400/60'
+      }`}
+    >
+      <div className="aspect-square relative bg-gradient-to-b from-gray-900 to-black">
+        <Image
+          src={image.path}
+          alt={title}
+          fill
+          className="object-contain p-2"
+          sizes="(max-width: 768px) 50vw, 25vw"
+        />
+      </div>
+      <div className={`p-3 ${highlight ? 'bg-amber-900/30' : 'bg-purple-900/30'}`}>
+        <h4 className={`font-bold text-sm ${highlight ? 'text-amber-300' : 'text-purple-300'}`}>
+          {title}
+        </h4>
+        <p className="text-xs text-gray-500 truncate" title={image.sha256}>
+          {image.sha256.slice(0, 16)}...
+        </p>
+      </div>
+      
+      {/* Hover details */}
+      <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center p-4">
+        <p className="text-xs text-gray-400 mb-2">{image.role}</p>
+        <p className="text-xs font-mono text-green-400 break-all">{image.sha256}</p>
+      </div>
+    </motion.div>
   );
 }
