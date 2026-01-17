@@ -30,10 +30,9 @@ const CovenantSigil = () => {
           {/* Above: Origin (Theta Epsilon Alpha Omicron Sigma) */}
           <div className="flex gap-6 text-6xl text-amber-500/90 tracking-widest transition-all duration-1000 hover:text-white drop-shadow-[0_0_15px_rgba(212,175,55,0.5)]">
             <span>Θ</span>
-            <span>𝜀</span>
-            <span>α</span>
+            <span>ε</span>
             <span>ό</span>
-            <span>𝜍</span>
+            <span>ς</span>
           </div>
 
           {/* Center: The Bridge Axis */}
