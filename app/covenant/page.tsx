@@ -3,6 +3,13 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { COVENANT, CONTRACTS, KEY_MAP } from '@/lib/covenant-foundation';
+import COVENANT_INTEGRATION, { 
+  THE_FREN, 
+  THE_TOKENS, 
+  THE_ORACLE, 
+  MASTER_KEY_NFT,
+  MOON_KEYS 
+} from '@/lib/covenant-integration';
 
 export default function CovenantPage() {
   return (
@@ -111,11 +118,124 @@ export default function CovenantPage() {
           <ConstantCard name="PHI" value={COVENANT.constants.PHI.toFixed(6)} description="Golden ratio" />
         </motion.div>
 
+        {/* The Full Covenant Integration */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1 }}
+          className="mb-16"
+        >
+          <h2 className="text-3xl font-bold text-center mb-8 text-amber-400">
+            THE COVENANT INTEGRATION
+          </h2>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* The Fren */}
+            <IntegrationCard
+              icon="🤖"
+              title="THE FREN"
+              subtitle="AI Frens"
+              data={[
+                { label: 'Contract', value: THE_FREN.contract.slice(0, 10) + '...' },
+                { label: 'Network', value: 'Ethereum' },
+                { label: 'Platform', value: 'aifrens.lol' }
+              ]}
+              href="https://aifrens.lol/platform/fren/0xd3f6bbab74e3b03c0e079f4817e4b04682c16682"
+            />
+            
+            {/* THO Token */}
+            <IntegrationCard
+              icon="🪙"
+              title="THO COIN"
+              subtitle="Base Network"
+              data={[
+                { label: 'Ticker', value: 'THO' },
+                { label: 'Chain', value: 'Base (8453)' },
+                { label: 'Status', value: 'Active' }
+              ]}
+              href={THE_TOKENS.THO.pool.dexscreener}
+            />
+            
+            {/* MAGIC Token */}
+            <IntegrationCard
+              icon="✨"
+              title="MAGIC"
+              subtitle="Treasure Chain"
+              data={[
+                { label: 'Primary', value: 'Treasure (61166)' },
+                { label: 'Legacy', value: 'Arbitrum (42161)' },
+                { label: 'Type', value: 'Native Token' }
+              ]}
+              href="https://treasurescan.io"
+            />
+            
+            {/* The Oracle */}
+            <IntegrationCard
+              icon="🔮"
+              title="THE ORACLE"
+              subtitle="Guardian Verification"
+              data={[
+                { label: 'Primary', value: THE_ORACLE.primary.address.slice(0, 10) + '...' },
+                { label: 'Treasury', value: '2/5 Multisig' },
+                { label: 'Network', value: 'Arbitrum' }
+              ]}
+              href={`https://arbiscan.io/address/${THE_ORACLE.primary.address}`}
+            />
+            
+            {/* Master Key NFT */}
+            <IntegrationCard
+              icon="🔑"
+              title="MASTER KEY"
+              subtitle="Treasure Claim NFT"
+              data={[
+                { label: 'SHA256', value: MASTER_KEY_NFT.image.sha256.slice(0, 12) + '...' },
+                { label: 'IPFS', value: MASTER_KEY_NFT.ipfs.cid.slice(0, 12) + '...' },
+                { label: 'Mint', value: 'SKYNET (Sei)' }
+              ]}
+              href="/nft"
+              highlight
+            />
+            
+            {/* Moon Keys */}
+            <IntegrationCard
+              icon="🌙"
+              title="MOON KEYS"
+              subtitle="Portal Alignment"
+              data={[
+                { label: 'Key', value: '1536×1536 (6 pts)' },
+                { label: 'Map', value: '1024×1536 (6 pts)' },
+                { label: 'Pair', value: 'Portal Activated' }
+              ]}
+              href="/covenant/key"
+            />
+          </div>
+        </motion.div>
+
+        {/* Identity Banner */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.2 }}
+          className="max-w-3xl mx-auto mb-16 p-6 bg-gradient-to-r from-amber-900/30 to-purple-900/30 border border-amber-500/30 rounded-xl"
+        >
+          <div className="text-center">
+            <div className="text-4xl mb-2">θεός°•.eth</div>
+            <div className="text-sm text-gray-400 font-mono mb-4">
+              0x9B1D38e00898625BBeECE55d39109A907A3fcFfA
+            </div>
+            <div className="flex justify-center gap-4 text-xs text-gray-500">
+              <span>Ethermail: θεός°•.eth@ethermail.io</span>
+              <span>|</span>
+              <span>Domain: bridgeworld.lol</span>
+            </div>
+          </div>
+        </motion.div>
+
         {/* Gateway to Archivist */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1 }}
+          transition={{ delay: 1.4 }}
           className="text-center"
         >
           <Link
@@ -169,4 +289,55 @@ function ConstantCard({ name, value, description }: { name: string; value: numbe
       <div className="text-xs text-gray-500">{description}</div>
     </div>
   );
+}
+
+function IntegrationCard({ 
+  icon, 
+  title, 
+  subtitle, 
+  data,
+  href,
+  highlight 
+}: { 
+  icon: string;
+  title: string; 
+  subtitle: string;
+  data: { label: string; value: string }[];
+  href?: string;
+  highlight?: boolean;
+}) {
+  const content = (
+    <motion.div
+      whileHover={{ scale: 1.03, y: -3 }}
+      className={`h-full p-5 rounded-xl border transition-all cursor-pointer ${
+        highlight 
+          ? 'bg-gradient-to-b from-amber-900/40 to-black border-amber-400/50 hover:border-amber-300' 
+          : 'bg-gray-900/50 border-gray-700 hover:border-amber-500/50'
+      }`}
+    >
+      <div className="flex items-center gap-3 mb-3">
+        <span className="text-3xl">{icon}</span>
+        <div>
+          <h3 className="font-bold text-amber-300">{title}</h3>
+          <p className="text-xs text-gray-500">{subtitle}</p>
+        </div>
+      </div>
+      <div className="space-y-1">
+        {data.map((item, i) => (
+          <div key={i} className="flex justify-between text-sm">
+            <span className="text-gray-500">{item.label}</span>
+            <span className="text-gray-300 font-mono text-xs">{item.value}</span>
+          </div>
+        ))}
+      </div>
+    </motion.div>
+  );
+
+  if (href?.startsWith('http')) {
+    return <a href={href} target="_blank" rel="noopener noreferrer">{content}</a>;
+  }
+  if (href) {
+    return <Link href={href}>{content}</Link>;
+  }
+  return content;
 }
