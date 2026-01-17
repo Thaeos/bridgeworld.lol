@@ -10,11 +10,11 @@ export default function Navigation() {
 
   const navItems = [
     { href: '/', label: 'Portal', icon: '🌀' },
-    { href: '/contracts', label: 'Contracts', icon: '📜' },
-    { href: '/tho', label: 'THO Coin', icon: '🪙' },
-    { href: '/swap', label: 'Swap', icon: '💱' },
-    { href: '/nft', label: 'Master Key', icon: '🔑' },
-    { href: '/aifrens', label: 'AI Frens', icon: '🤖' },
+    { href: '/covenant', label: 'Covenant', icon: '📜' },
+    { href: '/archivist', label: 'Archivist', icon: '🏛️' },
+    { href: '/staking', label: 'Staking', icon: '💎' },
+    { href: '/portal', label: 'Gateway', icon: '🚪' },
+    { href: '/contracts', label: 'Contracts', icon: '⚙️' },
   ];
 
   return (
