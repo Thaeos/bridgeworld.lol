@@ -34,7 +34,8 @@ export default function Home() {
   const contracts = getAllContracts();
   const verified = getVerifiedContracts();
   const tho = getTHOCoin();
-  const nft = MASTER_KEY_NFT;
+  // Master Key NFT available at MASTER_KEY_NFT for future use
+  void MASTER_KEY_NFT;
 
   const quickStats = [
     { label: 'ENS Domain', value: ens.domain, href: `/contracts`, icon: '🌐' },

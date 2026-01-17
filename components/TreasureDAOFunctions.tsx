@@ -66,7 +66,7 @@ export default function TreasureDAOFunctions() {
   };
 
   const getExplorerUrl = (address: string) => {
-    return `https://etherscan.io/address/${address}`;
+    return `https://eth.blockscout.com/address/${address}`;
   };
 
   const contracts = Array.from(new Set(functions.map(f => f.contract)));

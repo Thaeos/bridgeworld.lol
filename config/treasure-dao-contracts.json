@@ -15,11 +15,60 @@
     "provider": "Cloudflare",
     "owner_address": "0x9B1D38e00898625BBeECE55d39109A907A3fcFfA"
   },
-  "network": {
-    "name": "Arbitrum One",
-    "chain_id": 42161,
-    "rpc": "https://arb1.arbitrum.io/rpc",
-    "explorer": "https://arbiscan.io"
+  "networks": {
+    "treasure_chain": {
+      "name": "Treasure Chain",
+      "chain_id": 61166,
+      "rpc": "https://rpc.treasure.lol",
+      "rpc_wss": "wss://rpc.treasure.lol/ws",
+      "explorer": "https://treasurescan.io",
+      "native_token": "MAGIC",
+      "status": "primary",
+      "type": "zksync_l2"
+    },
+    "arbitrum": {
+      "name": "Arbitrum One",
+      "chain_id": 42161,
+      "rpc": "https://arb1.arbitrum.io/rpc",
+      "explorer": "https://arbitrum.blockscout.com",
+      "status": "legacy",
+      "note": "Original network - migrating to Treasure Chain"
+    },
+    "treasure_topaz": {
+      "name": "Treasure Topaz (Testnet)",
+      "chain_id": 978670,
+      "rpc": "https://rpc.topaz.treasure.lol",
+      "explorer": "https://topaz.treasurescan.io",
+      "status": "testnet"
+    },
+    "treasure_ruby": {
+      "name": "Treasure Ruby (Testnet)",
+      "chain_id": 978657,
+      "rpc": "https://rpc-testnet.treasure.lol/http",
+      "rpc_wss": "wss://rpc-testnet.treasure.lol/ws",
+      "explorer": "https://testnet.treasurescan.io",
+      "status": "testnet"
+    }
+  },
+  "bridge": {
+    "name": "Hyperlane",
+    "arbitrum_to_treasure": "https://app.treasure.lol/bridge",
+    "documentation": "https://docs.treasure.lol/chain"
+  },
+  "staking": {
+    "eigenlayer_avs": {
+      "status": "pending",
+      "note": "EigenLayer staking coming early 2025 per TIP-42"
+    },
+    "stMAGIC": {
+      "status": "pending",
+      "note": "Liquid staking token - deployment pending"
+    },
+    "mage_launchpool": {
+      "status": "active",
+      "platform": "Mage AI Agent Launchpad",
+      "description": "Stake MAGIC as mana for AI compute rewards"
+    }
   },
   "contracts": [
     {
@@ -313,7 +362,7 @@
     "chain_id": 8453,
     "pool_address": "0xc0B518AD8f598D1F830c357f31295E0fEC3dcb58",
     "pool_url": "https://dexscreener.com/base/0xc0B518AD8f598D1F830c357f31295E0fEC3dcb58",
-    "explorer": "https://basescan.org/address/0x233f3956d82bfea9E78B2BdB0a9D245193881870",
+    "explorer": "https://base.blockscout.com/address/0x233f3956d82bfea9E78B2BdB0a9D245193881870",
     "status": "active",
     "owner": "0x9B1D38e00898625BBeECE55d39109A907A3fcFfA"
   },
@@ -334,6 +383,10 @@
     "chain_id": 1,
     "description": "AI Frens platform profile for community engagement"
   },
-  "updated": "2026-01-14",
-  "version": "2.1"
+  "updated": "2026-01-16",
+  "version": "3.0",
+  "changelog": {
+    "3.0": "Added Treasure Chain (61166) as primary network, multi-network support, EigenLayer staking config, Mage AI integration, Hyperlane bridge",
+    "2.1": "Initial contract registry with 22 mapped contracts"
+  }
 }

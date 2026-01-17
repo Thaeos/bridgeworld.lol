@@ -103,7 +103,7 @@ export const CONTRACTS = {
     chainId: 8453,
     pool: '0xc0B518AD8f598D1F830c357f31295E0fEC3dcb58',
     poolUrl: 'https://dexscreener.com/base/0xc0B518AD8f598D1F830c357f31295E0fEC3dcb58',
-    explorer: 'https://basescan.org/address/0x233f3956d82bfea9E78B2BdB0a9D245193881870'
+    explorer: 'https://base.blockscout.com/address/0x233f3956d82bfea9E78B2BdB0a9D245193881870'
   }
 } as const;
 

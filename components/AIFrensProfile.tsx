@@ -58,20 +58,20 @@ export default function AIFrensProfile() {
             View AI Frens Profile →
           </a>
           <a
-            href={`https://etherscan.io/address/${aifrens.frenContract}`}
+            href={`https://eth.blockscout.com/address/${aifrens.frenContract}`}
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-center transition-colors text-sm"
           >
-            View Fren Contract on Etherscan
+            View Fren Contract on BlockScout
           </a>
           <a
-            href={`https://etherscan.io/address/${aifrens.frenWallet}`}
+            href={`https://eth.blockscout.com/address/${aifrens.frenWallet}`}
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full px-6 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg text-center transition-colors text-sm"
           >
-            View Fren Wallet on Etherscan
+            View Fren Wallet on BlockScout
           </a>
           <a
             href={aifrens.platformUrl}

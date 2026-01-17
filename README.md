@@ -301,8 +301,8 @@ NEXT_PUBLIC_TREASURY=0xb4C173AaFe428845f0b96610cf53576121BAB221
 - **Bridgeworld Game**: https://bridgeworld.treasure.lol
 - **TreasureDAO Docs**: https://docs.treasure.lol
 - **Brave Search API**: https://brave.com/search/api/
-- **Oracle Contract**: [Arbiscan](https://arbiscan.io/address/0xfa05997C66437dCCAe860af334b30d69E0De24DC)
-- **Treasury Contract**: [Arbiscan](https://arbiscan.io/address/0xb4C173AaFe428845f0b96610cf53576121BAB221)
+- **Oracle Contract**: [BlockScout](https://arbitrum.blockscout.com/address/0xfa05997C66437dCCAe860af334b30d69E0De24DC)
+- **Treasury Contract**: [BlockScout](https://arbitrum.blockscout.com/address/0xb4C173AaFe428845f0b96610cf53576121BAB221)
 
 ## 🤝 Contributing
 

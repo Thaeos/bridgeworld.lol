@@ -129,15 +129,19 @@ export default function PortalExperience({ onPortalActivated }: PortalExperience
               setKeyPosition(newPos);
               checkProximity(newPos, mapPosition);
             }}
-            onDragStart={() => {}}
-            onDragEnd={() => {}}
+            onDragStart={() => {
+              console.log('🔑 Key drag started');
+            }}
+            onDragEnd={() => {
+              console.log('🔑 Key drag ended at:', keyPosition);
+            }}
             className="cursor-grab active:cursor-grabbing"
             whileHover={{ scale: 1.05, boxShadow: '0 0 40px rgba(255, 215, 0, 0.3)' }}
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative w-48 h-48 rounded-lg overflow-hidden border-2 border-covenant-gold/20">
               <img
-                src="/Key.png"
+                src="/Master_Key.png"
                 alt="The Master Key"
                 className="w-full h-full object-cover pointer-events-none select-none"
                 draggable={false}
@@ -159,8 +163,12 @@ export default function PortalExperience({ onPortalActivated }: PortalExperience
               setMapPosition(newPos);
               checkProximity(keyPosition, newPos);
             }}
-            onDragStart={() => {}}
-            onDragEnd={() => {}}
+            onDragStart={() => {
+              console.log('🗺️ Map drag started');
+            }}
+            onDragEnd={() => {
+              console.log('🗺️ Map drag ended at:', mapPosition);
+            }}
             className="cursor-grab active:cursor-grabbing"
             whileHover={{ scale: 1.05, boxShadow: '0 0 40px rgba(255, 215, 0, 0.3)' }}
             whileTap={{ scale: 0.95 }}

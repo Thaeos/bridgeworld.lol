@@ -246,14 +246,14 @@ See `DEPLOYMENT_CHECKLIST.md` for complete deployment guide.
 - **Address**: `0xfa05997C66437dCCAe860af334b30d69E0De24DC`
 - **Network**: Arbitrum One (42161)
 - **Purpose**: Guardian verification, quest multipliers, harvester boosts
-- **View**: https://arbiscan.io/address/0xfa05997C66437dCCAe860af334b30d69E0De24DC
+- **View**: https://arbitrum.blockscout.com/address/0xfa05997C66437dCCAe860af334b30d69E0De24DC
 
 ### Treasury Contract
 - **Address**: `0xb4C173AaFe428845f0b96610cf53576121BAB221`
 - **Network**: Arbitrum One (42161)
 - **Type**: Safe (Gnosis Safe)
 - **Threshold**: 2/5 multisig
-- **View**: https://arbiscan.io/address/0xb4C173AaFe428845f0b96610cf53576121BAB221
+- **View**: https://arbitrum.blockscout.com/address/0xb4C173AaFe428845f0b96610cf53576121BAB221
 
 ## 🎯 Integration Points
 

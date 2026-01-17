@@ -30,7 +30,7 @@ export default function ContractRegistry() {
   }, [filter, search]);
 
   const getExplorerUrl = (address: string) => {
-    return `https://arbiscan.io/address/${address}`;
+    return `https://arbitrum.blockscout.com/address/${address}`;
   };
 
   const getENSRecordUrl = (key: string) => {
@@ -145,7 +145,7 @@ export default function ContractRegistry() {
                 rel="noopener noreferrer"
                 className="block w-full text-center px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded text-sm transition-colors"
               >
-                View on Arbiscan
+                View on BlockScout
               </a>
               <a
                 href={getENSRecordUrl(contract.ens_text_record)}

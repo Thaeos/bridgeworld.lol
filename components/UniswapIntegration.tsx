@@ -50,7 +50,7 @@ export default function UniswapIntegration() {
                   chainName: 'Base',
                   nativeCurrency: { name: 'ETH', symbol: 'ETH', decimals: 18 },
                   rpcUrls: ['https://mainnet.base.org'],
-                  blockExplorerUrls: ['https://basescan.org']
+                  blockExplorerUrls: ['https://base.blockscout.com']
                 }],
               });
             }

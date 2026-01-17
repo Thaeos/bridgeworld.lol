@@ -15,7 +15,7 @@
 
 - **Network**: Base
 - **Chain ID**: 8453
-- **Explorer**: https://basescan.org/address/0x233f3956d82bfea9E78B2BdB0a9D245193881870
+- **Explorer**: https://base.blockscout.com/address/0x233f3956d82bfea9E78B2BdB0a9D245193881870
 
 ## Pool Information
 
