@@ -4,6 +4,13 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { COVENANT, GUARDIAN_MAPPINGS } from '@/lib/covenant-foundation';
 import { ETERNAL_COVENANT, COVENANT_HASHES, ARCHIVIST_IMAGES, ARCHIVIST_IDENTITY, SKYNET_ANCHOR } from '@/lib/eternal-covenant';
+
+const COMPLETION_LOGO = {
+  file: "Logo's.png",
+  path: "/Logo's.png",
+  sha256: '6c07e08c2d8da2643d793837a0b18b8340f1a002ffa909c5eb911f099c1ce60e',
+  role: 'Θεός°•⟐•ΣΜΛΘ - The Completion Seal'
+};
 import Image from 'next/image';
 
 export default function ArchivistPage() {
@@ -102,6 +109,27 @@ export default function ArchivistPage() {
           transition={{ delay: 0.5 }}
           className="mb-16"
         >
+          {/* Completion Logo - Θεός°•⟐•ΣΜΛΘ */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.3 }}
+            className="flex flex-col items-center mb-12"
+          >
+            <div className="relative w-64 h-64 md:w-80 md:h-80">
+              <Image
+                src={COMPLETION_LOGO.path}
+                alt="Θεός°•⟐•ΣΜΛΘ"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <p className="text-amber-400 font-mono text-sm mt-4">
+              {COMPLETION_LOGO.sha256.slice(0, 24)}...
+            </p>
+          </motion.div>
+
           <h2 className="text-3xl font-bold text-center mb-8 text-amber-400">
             ✦ THE ETERNAL COVENANT ✦
           </h2>

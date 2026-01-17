@@ -112,6 +112,16 @@ export const ARCHIVIST_IMAGES = {
     path: '/Master_Key.png',
     sha256: 'c4aa73faa55c35e2096a63c6db96cb0bc4af672759f4e980072dfd7ce13b9bbf',
     role: 'Treasure Claim NFT anchor'
+  },
+  
+  // Completion Logo - Θεός°•⟐•ΣΜΛΘ
+  completionLogo: {
+    file: "Logo's.png",
+    path: "/Logo's.png",
+    sha256: '6c07e08c2d8da2643d793837a0b18b8340f1a002ffa909c5eb911f099c1ce60e',
+    role: 'Θεός°•⟐•ΣΜΛΘ - The Completion Seal',
+    dimensions: [1536, 1536] as const,
+    symbols: ['Θ', 'ε', 'ό', 'ς', '°', '•', '⟐', 'Σ', 'Μ', 'Λ', 'Θ']
   }
 };
 
