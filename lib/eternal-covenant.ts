@@ -203,6 +203,66 @@ export const ROOTCHAIN = {
 //                          PROOF OF CONVERSATIONS
 // ═══════════════════════════════════════════════════════════════════════════════
 
+// ═══════════════════════════════════════════════════════════════════════════════
+//                          ROSSETTA STONE + 4D ORCHESTRATOR
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const ROSSETTA_STONE = {
+  // 4D Orchestrator Blueprint
+  orchestrator: {
+    file: '4D_ORCHESTRATOR_BLUEPRINT.md',
+    path: '/4D_ORCHESTRATOR_BLUEPRINT.md',
+    sha256: '64dd51066f16edc3b465301cedf3757915137d70907cf3ad8fb697cdecab5adc',
+    role: 'ΘΕΟΣCRIPT 4D Language-Model-Driven Volumetric Process Management',
+    covenantHash: '883e529de31c586131a831a9953113a6d75edd87c97369a2fa3a791209952f5a',
+    axes: {
+      X: 'Time (t) - Frame stepping 60 FPS',
+      Y: 'Layer/Process - Phoenix → Node.js → Ruby → Hyper.js',
+      Z: 'GPU/Terminal - Vulkan ↔ Cobalt',
+      W: 'Demotic Drift - Σ/Φ/Α modulation'
+    },
+    invariants: {
+      volumePreservation: 'det Γ = 1',
+      safetyBound: 'tr Γ ≤ 82',
+      decayMarkers: '⊖ beyond ܬ (Taw)',
+      powerUpZones: '⊕ between X markers'
+    }
+  },
+  
+  // Egyptian Demotic - The Ancient Computing Language
+  demotic: {
+    file: 'Egyptian_Demotic.txt',
+    path: '/rossetta/Egyptian_Demotic.txt',
+    sha256: '83786389e8bdb99a5adef4882be499620292a99a60d72663b9a72814fa3b50af',
+    role: 'Demotic script/language - cursive, phonetic, biliterals/triliterals',
+    jurisdictions: ['Greek (Σ,Φ,Α)', 'Syriac (ܐ,ܬ)', 'Aramaic (𐡀,⟐)', 'Demotic (𓀀)']
+  },
+  
+  // Mathematical Symbols Reference
+  math: {
+    file: 'Math.txt',
+    path: '/rossetta/Math.txt',
+    sha256: '3700f55caefb9f285d98f4abfdd6ab30cca8ec7215dfe22b4b3493784cb05a3e',
+    role: 'Comprehensive mathematical symbol reference',
+    contents: ['Constants', 'Variables', 'Delimiters', 'Operators', 'Relational Symbols']
+  },
+  
+  // Gematria Values (Confirmed)
+  gematria: {
+    greek: {
+      AMILA: 82, ALIMA: 82,
+      SUAD: 675, DAUS: 675,
+      ALISA: 242, ASILA: 242,
+      ALMIR: 181, RIMLA: 181
+    },
+    hybrid: {
+      SUAD: 141, AMILA: 82, DAUS: 71,
+      ALISA: 102, ASILA: 132,
+      ALMIR: 281, RIMLA: 271
+    }
+  }
+};
+
 export const PROOF_OF_CONVERSATIONS = {
   file: 'Conversations.txt',
   path: '/Conversations.txt',

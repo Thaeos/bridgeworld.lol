@@ -1,0 +1,1086 @@
+Comprehensive List of
+
+Mathematical
+  Symbols
+                         Comprehensive List of Mathematical Symbols
+
+
+
+
+        Comprehensive List of
+    Mathematical Symbols
+
+    For the corresponding web guides, see Mathematical Symbols.
+
+
+
+
+              Table of Contents
+
+       1     Constant . . . . . . . . . . . . . . . . . . . . . . . . .    3
+             1.1    Key Mathematical Numbers . . . . . . . . . . .         3
+             1.2    Key Mathematical Sets . . . . . . . . . . . . .        4
+             1.3    Key Mathematical Infinities . . . . . . . . . . .      5
+             1.4    Other Key Mathematical Objects . . . . . . . .         6
+       2     Variables . . . . . . . . . . . . . . . . . . . . . . . . .   6
+             2.1     Variables for Numbers . . . . . . . . . . . . . .     6
+             2.2     Variables in Geometry . . . . . . . . . . . . .       7
+             2.3     Variables in Calculus . . . . . . . . . . . . . .     7
+             2.4     Variables in Linear Algebra . . . . . . . . . . .     8
+             2.5     Variables in Set Theory and Logic . . . . . . .       8
+             2.6     Variables in Probability and Statistics . . . . . .   9
+       3     Delimiters . . . . . . . . . . . . . . . . . . . . . . . .    10
+             3.1    Common Delimiters . . . . . . . . . . . . . . .        10
+             3.2    Other Delimiters . . . . . . . . . . . . . . . .       10
+       4     Operators . . . . . . . . . . . . . . . . . . . . . . . . .   11
+
+
+2                                                           Table of Contents
+Comprehensive List of Mathematical Symbols
+
+        4.1     Common Operators . . . . . . . . . . . . . . .         11
+        4.2     Function-related Operators . . . . . . . . . . .       12
+        4.3     Elementary Functions . . . . . . . . . . . . . .       12
+        4.4     Algebra-related Operators . . . . . . . . . . . .      13
+        4.5     Geometry-related Operators . . . . . . . . . .         14
+        4.6     Logic-related Operators . . . . . . . . . . . . .      15
+        4.7     Set-related Operators . . . . . . . . . . . . . .      16
+        4.8     Vector-related Operators . . . . . . . . . . . .       16
+        4.9     Matrix-related Operators . . . . . . . . . . . .       17
+        4.10    Probability-related Operators . . . . . . . . . .      18
+        4.11    Statistics-related Operators . . . . . . . . . . .     18
+        4.12    Key Probability Functions and Distributions . .        19
+        4.13    Calculus-related Operators . . . . . . . . . . .       20
+   5    Relational Symbols . . . . . . . . . . . . . . . . . . . .     21
+        5.1     Equality-based Relational Symbols . . . . . . .        21
+        5.2     Comparison-based Relational Symbols . . . . .          21
+        5.3     Number-related Relational Symbols . . . . . .          22
+        5.4     Geometry-related Relational Symbols . . . . .          22
+        5.5     Set-related Relational Symbols . . . . . . . . .       22
+        5.6     Logic-related Relational Symbols . . . . . . . .       23
+        5.7     Probability-related Relational Symbols . . . . .       23
+        5.8     Calculus-related Relational Symbols . . . . . .        24
+   6    Notational Symbols . . . . . . . . . . . . . . . . . . .       24
+        6.1    Common Notational Symbols . . . . . . . . . .           24
+        6.2    Notational Symbols in Geometry and Trigonom-
+               etry . . . . . . . . . . . . . . . . . . . . . . . .    25
+        6.3    Notational Symbols in Calculus . . . . . . . . .        25
+        6.4    Notational Symbols in Probability and Statistics        26
+   7    Additional Resources     . . . . . . . . . . . . . . . . . .   26
+
+
+ 1 Constant
+ 1.1    Key Mathematical Numbers
+
+
+1.1 Key Mathematical Numbers                                                3
+                           Comprehensive List of Mathematical Symbols
+
+    Symbols                  LaTeX Code          Example
+    (Explanation)
+
+    0                        $0$                 3+0=3
+    (Zero, additive
+    identity)
+    1                        $1$                 5×1=5
+    (One, multiplicative
+    identity)
+    √                                             √               √
+      2                      $\sqrt{2}$          ( 2 + 1)2 = 3 + 2 2
+    (Square root of 2)
+    e                        $e$                 ln(e2 ) = 2
+    (Euler’s constant)
+                                                 π2   1   1
+    π                        $\pi$                  = 2 + 2 + ···
+    (Pi, Archimedes’                             6   1   2
+    constant)
+                                                       √
+                                                    1+ 5
+    φ                        $\varphi$           φ=
+    (Phi, golden ratio)                               2
+
+    i                        $i$                 (1 + i)2 = 2i
+    (Imaginary unit)
+
+
+     1.2       Key Mathematical Sets
+    Symbols                  LaTeX Code          Example
+    (Explanation)
+
+    ∅                        $\varnothing$       |∅| = 0
+    (Empty set)
+    N                        $\mathbb{N}$        ∀x, y ∈ N, x + y ∈ N
+    (Set of natural
+    numbers)
+    Z                        $\mathbb{Z}$        N⊆Z
+    (Set of integers)
+
+
+
+
+4                                             1.2 Key Mathematical Sets
+Comprehensive List of Mathematical Symbols
+
+Z+                        $\mathbb{Z}_+$   3 ∈ Z+
+(Set of positive
+integers)
+                                           √
+Q                         $\mathbb{Q}$         2∈
+                                                /Q
+(Set of rational
+numbers)
+R                         $\mathbb{R}$     ∀x ∈ R (x2 ≥ 0)
+(Set of real numbers)
+R+                        $\mathbb{R}_+$   ∀x, y ∈ R+ (xy ∈ R+ )
+(Set of positive real
+numbers)
+C                         $\mathbb{C}$     ∃z ∈ C (z 2 + 1 = 0)
+(Set of complex
+numbers)
+Zn                     $\mathbb{Z}_n$      In the world of Z2 ,
+(Set of integer modulo                     1 + 1 = 0.
+n)
+R3                        $\mathbb{R}^3$   (5, 1, 2) ∈ R3
+(Three-dimensional
+Euclidean space)
+
+
+ 1.3       Key Mathematical Infinities
+Symbols                   LaTeX Code       Example
+(Explanation)
+
+ℵ0                        $\aleph_0$       ℵ0 + 5 = ℵ0
+(Cardinality of natural
+numbers)
+c                         $\mathfrak{c}$   c = 2 ℵ0
+(Cardinality of real
+numbers)
+ω                         $\omega$         ∀n ∈ N (n < ω)
+(Smallest infinite
+ordinal number)
+
+
+
+1.3 Key Mathematical Infinities                                    5
+                             Comprehensive List of Mathematical Symbols
+
+
+     1.4      Other Key Mathematical Objects
+    Symbols                    LaTeX Code           Example
+    (Explanation)
+
+    0                          $\mathbf{0}$         ∀v ∈ V, v + 0 = v
+    (Zero vector)
+    e                          $e$                  e◦e=e
+    (Identity element of a
+    group)
+    I                          $I$                  AI = IA = A
+    (Identity matrix)
+                                                    Z
+    C                          $C$                      1 dx = x + C
+    (Constant of
+    integration)
+    >                          $\top$               For each proposition P ,
+    (Tautology)                                     P ∧ > ≡ P.
+    ⊥                          $\bot$               For each proposition P ,
+    (Contradiction)                                 P ∧ ¬P ≡ ⊥.
+    Z                          $Z$                  Z ∼ N (0, 1)
+    (Standard normal
+    distribution)
+
+
+
+     2 Variables
+     2.1       Variables for Numbers
+    Symbols                    LaTeX Code           Example
+    (Explanation)
+
+    m, n, p, q                 $m$, $n$, $p$, $q$   m+n−q =1
+    (Integers and natural
+    numbers)
+
+
+
+
+6                                               2.1 Variables for Numbers
+Comprehensive List of Mathematical Symbols
+
+a, b, c                $a$, $b$, $c$       ax + by = 0
+(Coefficients for
+functions and
+equations)
+x, y, z                $x$, $y$, $z$       If 2x + 5 = 3, then
+(Unknowns in                               x = −1.
+functions and
+equations)
+∆                      $\Delta$            ∆ = b2 − 4ac for
+(Discriminant)                             quadratic polynomials
+                                           X
+                                           10
+i, j, k                $i$, $j$, $k$             i = 55
+(Index variables)                          i=1
+
+t                      $t$                 At t = 5, the velocity
+(Time variable)                            is v(5) = 32.
+z                      $z$                 z z̄ = |z|2
+(Complex numbers)
+
+
+ 2.2         Variables in Geometry
+Symbols              LaTeX Code           Example
+(Explanation)
+
+P , Q, R, S          $P$, $Q$, $R$, $S$   P Q ⊥ QR
+(Vertices)
+ℓ                    $\ell$               ℓ1 k ℓ2
+(Lines)
+α, β, γ, θ           $\alpha$, $\beta$,   α + β + θ = 180◦
+(Angles)             $\gamma$, $\theta$
+
+
+ 2.3         Variables in Calculus
+Symbols                LaTeX Code         Example
+(Explanation)
+
+
+
+2.3 Variables in Calculus                                           7
+                             Comprehensive List of Mathematical Symbols
+
+    f (x), g(x, y), h(z)      $f(x)$, $g(x,y)$,     f (2) = g(3, 1) + 5
+    (Functions)               $h(z)$
+                                                            3
+    an , bn , cn              $a_n$, $b_n$,         an =
+    (Sequences)               $c_n$                        n+2
+                                                        eh − e0
+    h, ∆x                     $h$, $\Delta x$       lim         =1
+    (Limiting variables in                          h→0    h
+    derivatives)
+    δ, ε                      $\delta$,             For all ε > 0, there is a
+    (Small quantities in      $\varepsilon$         δ > 0 such that |x| < δ
+    proofs involving                                implies that |2x| < ε.
+    limits)
+    F (x), G(x)               $F(x)$, $G(x)$        F 0 (x) = f (x)
+    (Antiderivatives)
+
+
+     2.4         Variables in Linear Algebra
+    Symbols                   LaTeX Code            Example
+    (Explanation)
+
+    u, v, w                   $\mathbf{u}$,         3u + 4v = w
+    (Vectors)                 $\mathbf{v}$,
+                              $\mathbf{w}$
+    A, B, C                   $A$, $B$, $C$         AX = B
+    (Matrices)
+    λ                         $\lambda$             Av = λv
+    (Eigenvalues)
+
+
+     2.5         Variables in Set Theory and Logic
+    Symbols                   LaTeX Code            Example
+    (Explanation)
+
+    A, B, C                   $A$, $B$, $C$         A⊆B∪C
+    (Sets)
+
+
+
+8                                      2.5 Variables in Set Theory and Logic
+Comprehensive List of Mathematical Symbols
+
+a, b, c                 $a$, $b$, $c$         a∈A
+(Elements)
+P , Q, R                $P$, $Q$, $R$         P ∨ ¬P ≡ >
+(Propositions)
+
+
+ 2.6         Variables in Probability and Statistics
+Symbols                 LaTeX Code            Example
+(Explanation)
+
+X, Y , Z                $X$, $Y$, $Z$         E(X + Y ) =
+(Random variables)                            E(X) + E(Y )
+µ                       $\mu$                 H0 : µ = 5
+(Population means)
+σ                       $\sigma$              σ1 = σ2
+(Population standard
+deviations)
+s                       $s$                   s 6= σ
+(Sample standard
+deviations)
+n                       $n$                   For n ≥ 30, use the
+(Sample sizes)                                normal distribution.
+ρ                       $\rho$                Ha : ρ < 0
+(Population
+correlations)
+r                       $r$                   If r = 0.75, then
+(Sample correlations)                         r2 = 0.5625.
+π                       $\pi$                 π = 0.5
+(Population
+proportions)
+                                                   X
+p                       $p$                   p=
+(Sample proportions)                               n
+
+
+
+
+2.6 Variables in Probability and Statistics                          9
+                             Comprehensive List of Mathematical Symbols
+
+
+      3 Delimiters
+      3.1       Common Delimiters
+     Symbols                  LaTeX Code            Example
+     (Explanation)
+
+     .                        $.$                   25.9703
+     (Decimal separator)
+     :                        $:$                   1 : 4 : 9 = 3 : 12 : 27
+     (Ratio indicator)
+     ,                        $,$                   (3, 5, 12)
+     (Object separator)
+     (), [], {}               $()$, $[]$, $\{ \}$   (a + b) × c
+     (Order-of-operation
+     indicators)
+     (), []                   $()$, $[]$            3∈
+                                                     / (3, 4], 4 ∈ (3, 4]
+     (Interval indicators)
+
+
+      3.2       Other Delimiters
+     Symbols                  LaTeX Code            Example
+     (Explanation)
+                                                        
+                
+                     a                            1 4
+     (), [], x y ,          $()$, $[]$,                 
+                    b         $\begin{pmatrix} x     3 6
+     (Vector/matrix           & y \end{pmatrix}$,
+     indicators)              $\begin{bmatrix} a
+                              \\ b \end{bmatrix}$
+     {}                       $\{ \}$               {π, e, i}
+     (Set builder)
+     |, :                     $\mid, :$             {x ∈ R | x2 − 2 = 0}
+     (“Such that” markers)
+
+
+
+10                                                      3.2 Other Delimiters
+Comprehensive List of Mathematical Symbols
+
+||, kk                $| |, \| \|$          k(3, 4)k = 5
+(Metric-related
+operators)
+                                                   
+f (x)  x≥a                                         1    x≥0
+g(x)
+                      $\begin{cases} f(x)   f (x) = 
+        x<a           & x \ge a \\ g(x) &               0 x<0
+(Piecewise-function   x < a \end{cases}$
+marker)
+hi                    $\langle \rangle$     hka, bi = kha, bi
+(Inner product
+operator)
+de                    $\lceil \rceil$       d2.476e = 3
+(Ceiling operator)
+bc                    $\lfloor \rfloor$     bπc = 3
+(Floor operator)
+
+
+
+ 4 Operators
+ 4.1         Common Operators
+Symbols               LaTeX Code            Example
+(Explanation)
+
+x+y                   $x+y$                 2a + 3a = 5a
+(Sum)
+x−y                   $x-y$                 11 − 5 = 6
+(Difference)
+−x                    $-x$                  −3 + 3 = 0
+(Additive inverse)
+x × y, x · y, xy      $x \times y$,         (m + 1)n = mn + n
+(Product)             $x \cdot y$, $xy$
+x ÷ y, x/y            $x \div y$, $x/y$     152 ÷ 3 = 50.6
+(Quotient)
+
+
+
+
+4.1 Common Operators                                            11
+                              Comprehensive List of Mathematical Symbols
+
+     x                                              53 + 5   53 5
+                               $\displaystyle              =    +
+     y                         \frac{x}{y}$            6      6   6
+     (Fraction)
+     xy                        $x^y$                34 = 81
+     (Power)
+                                                          √
+                                                    −b ± ∆
+     x±y                       $x \pm y$
+     (Plus and minus)                                   2a
+     √                                              √
+       x                       $\sqrt{x}$             2 ≈ 1.414
+     (Positive square root)
+     |x|                       $|x|$                |x − 3| < 5
+     (Absolute value)
+                                                       . x
+     x%                        $x \%$               x% =
+     (Percent)                                           100
+
+
+
+      4.2         Function-related Operators
+     Symbols            LaTeX Code                  Example
+     (Explanation)
+
+     dom f              $\operatorname{dom}f$       If g(x) = ln x, then
+     (Domain)                                       dom(g) = R.
+     ran f              $\operatorname{ran}f$       If h(y) = sin y, then
+     (Range)                                        ran(h) = [−1.1].
+     f (x)              $f(x)$                      g(5) = g(4) + 3
+     (Image of an
+     element)
+     f (X)              $f(X)$                      f (A∩B) ⊆ f (A)∩f (B)
+     (Image of a set)
+     f ◦g               $f \circ g$                 If g(3) = 5 and f (5) =
+     (Composite                                     8, then (f ◦ g)(3) = 8.
+     function)
+
+
+      4.3         Elementary Functions
+
+12                                                4.3 Elementary Functions
+Comprehensive List of Mathematical Symbols
+
+Symbols                  LaTeX Code         Example
+(Explanation)
+
+kn xn + · · · + k0 x0   $k_n x^n + \cdots   The polynomial
+(Polynomial)            + k_0x^0$           x3 + 2x2 + 3 has a root
+                                            in (−3, −2).
+ex , exp x               $e^x$, $\exp x$    ex+y = ex · ey
+(Natural exponential
+function)
+bx                       $b^x$              2x > x2 for large x.
+(General exponential
+function)
+ln x                     $\ln x$            ln(x2 ) = 2 ln x
+(Natural logarithmic
+function)
+log x                    $\log x$           log 10000 = 4
+(Common
+logarithmic function)
+                                                        ln x
+logb x                   $\log_b x$         log2 x =
+(General logarithmic                                    ln 2
+function)
+sin x                    $\sin x$           sin π = 0
+(Sine function)
+                                                  √
+                                               π    2
+cos x                    $\cos x$           cos =
+(Cosine function)                              4  2
+                                                       sin x
+tan x                    $\tan x$           tan x =
+(Tangent function)                                     cos x
+
+
+
+ 4.4        Algebra-related Operators
+Symbols                 LaTeX Code          Example
+(Explanation)
+
+gcd(x, y)               $\gcd (x,y)$        gcd(35, 14) = 7
+(Greatest common
+factor)
+
+4.4 Algebra-related Operators                                         13
+                           Comprehensive List of Mathematical Symbols
+
+     bxc                    $\lfloor x \rfloor$     b3.6c = 3
+     (Floor operator)
+     dxe                    $\lceil x \rceil$       dπe = 4
+     (Ceiling operator)
+     min(A)                 $\min (A)$              If min(A) = 3, then
+     (Minimum)                                      min(A + 5) = 8.
+     max(A)                 $\max (A)$              max(A ∪ B) ≥ max(A)
+     (Maximum)
+     x mod y                $x\bmod y$              36 mod 5 = 1
+     (Modulo operator)
+     X
+     n                                              X
+                                                    5
+                                                      2
+           ai              $\displaystyle                 i = 55
+     i=m                   \sum_{i=m}^n a_i$        i=1
+     (Summation)
+     Y
+     n                                              Y
+                                                    n
+           ai              $\displaystyle                 = n!
+     i=m                   \prod_{i=m}^n a_i$       i=1
+     (Pi Product)
+                                                        .
+     [a]                    $[a]$                   [a] = {x | xRa}
+     (Equivalence class)
+     deg f                  $\deg f$                deg(2x2 + 3x + 5) = 2
+     (Degree of
+     polynomial)
+     z̄                     $\bar{z}$               5 − 8i = 5 + 8i
+     (Complex
+     conjugate)
+     |z|                    $|z|$                   |eπi | = 1
+     (Absolute value of
+     complex number)
+                                                                   π
+     arg z                  $\arg z$                arg(1 + i) =     + 2πn
+     (Arguments of                                                 4
+     complex number)
+
+
+      4.5       Geometry-related Operators
+     Symbols               LaTeX Code               Example
+     (Explanation)
+
+14                                          4.5 Geometry-related Operators
+Comprehensive List of Mathematical Symbols
+
+∠ABC               $\angle ABC$          ∠ABC = ∠CBA
+(Angle)
+∡ABC, m∠ABC $\measuredangle             ∡ABC = ∡A0 B 0 C 0
+(Measure of angle) ABC$, $m\angle ABC$
+←→                                      ←→ ←→
+AB                 $\overleftrightarrow AB = BA
+(Infinite line)    {AB}$
+AB                 $\overline{AB}$       If B 6= B 0 , then
+(Line segment)                           AB 6= AB 0 .
+−→                                       −→ ∼ −−→
+AB                 $\overrightarrow      AB = CD
+(Ray)              {AB}$
+|AB|               $|AB|$                |AB| < |A0 B 0 |
+(Distance
+between two
+points)
+4ABC               $\triangle ABC$       4ABC ∼
+                                              = 4A0 B 0 C 0
+(Triangle)
+□ABCD              $\square ABCD$        □ABCD = □DCBA
+(Quadrilateral)
+
+
+ 4.6         Logic-related Operators
+Symbols              LaTeX Code          Example
+(Explanation)
+
+¬P                   $\lnot P$           ¬(1 = 2)
+(Negation)
+P ∧Q                 $P \land Q$         P ∧Q≡Q∧P
+(Conjunction)
+P ∨Q                 $P \lor Q$          πe ∈ Q ∨ πe ∈
+                                                     /Q
+(Disjunction)
+P →Q                 $P \to Q$           P → Q ≡ (¬P ∨ Q)
+(Conditional)
+P ↔Q                 $P \leftrightarrow Q$ P ↔ Q =⇒ P → Q
+(Biconditional)
+
+
+4.6 Logic-related Operators                                   15
+                           Comprehensive List of Mathematical Symbols
+
+     ∀xP (x)               $\forall x P(x)$        ∀y ∈ N (y + 1 ∈ N)
+     (Universal
+     statement)
+     ∃xP (x)               $\exists x P(x)$        ∃z (z 2 = −π)
+     (Existential
+     statement)
+
+
+      4.7         Set-related Operators
+     Symbols               LaTeX Code              Example
+     (Explanation)
+
+     A, Ac                 $\overline{A}$,         A=A
+     (Complement)          $A^{c}$
+     A∩B                   $A \cap B$              {2, 5} ∩ {1, 3} = ∅
+     (Intersection)
+     A∪B                   $A \cup B$              N∪Z=Z
+     (Union)
+     A/B, A − B            $A/B$, $A-B$            In general,
+     (Set difference)                              A − B 6= B − A.
+     A×B                   $A \times B$            (11, −35) ∈ N × Z
+     (Cartesian product)
+     P(A)                  $\mathcal{P}(A)$        P(∅) = {∅}
+     (Power set)
+     |A|                   $|A|$                   |N| = ℵ0
+     (Cardinality)
+
+
+      4.8         Vector-related Operators
+     Symbols               LaTeX Code              Example
+     (Explanation)
+
+     kvk                   $\| \mathbf{v} \|$      k(3, 4)k = 5
+     (Norm of vector)
+
+
+16                                            4.8 Vector-related Operators
+Comprehensive List of Mathematical Symbols
+
+u·v                   $\mathbf{u} \cdot        u · u = kuk2
+(Dot product)         \mathbf{v}$
+u×v                   $\mathbf{u} \times       u×u=0
+(Cross product)       \mathbf{v}$
+projv u               $\operatorname{proj} proj(0,1) (5, 4) = (0, 4)
+(Projection vector)   _{\mathbf{v}}
+                      \mathbf{u}$
+span(S)               $\operatorname{span} span({i, j}) = R2
+(Span of vectors)     (S)$
+dim(V )               $\dim(V)$                dim(R3 ) = 3
+(Dimension of
+vector space)
+
+
+ 4.9      Matrix-related Operators
+Symbols               LaTeX Code               Example
+(Explanation)
+
+A+B                   $A+B$                    A+X =B
+(Matrix sum)
+A−B                   $A-B$                    In general,
+(Matrix difference)                            A − B 6= B − A.
+−A                    $-A$                     B + (−B) = 0
+(Additive inverse)
+kA                    $kA$                     (−1)A = −A
+(Scalar product)
+AB                    $AB$                     AI = IA = A
+(Matrix product)
+AT                    $A^T$                    IT = I
+(Matrix transpose)
+A−1                   $A^{-1}$                 (AB)−1 = B −1 A−1
+(Matrix inverse)
+tr(A)                 $\operatorname{tr}       tr(AT ) = tr(A)
+(Trace of matrix)     (A)$
+
+
+4.9 Matrix-related Operators                                           17
+                          Comprehensive List of Mathematical Symbols
+
+                    x y                           1 4
+     det(A), |A|,         $\det(A)$, $|A|$,              = 2 − 12 = −10
+                 w z      $\begin{vmatrix} x &    3 2
+     (Determinant)        y \\ w & z
+                          \end{vmatrix}$
+
+
+      4.10          Probability-related Operators
+     Symbols              LaTeX Code              Example
+     (Explanation)
+
+     n!                   $n!$                    4! = 4 · 3 · 2 · 1
+     (Factorial)
+     nP r                 $nPr$                   5P 3 = 5 · 4 · 3
+     (Permutation)
+                                                        
+           n                                       5   5
+     nCr,               $nCr$, $\displaystyle    = 
+           r              \binom{n}{r}$            2   3
+     (Combination)
+     P (E)                $P(E)$                  P (A ∪ B ∪ C) = 0.3
+     (Probability of
+     event)
+                                                               P (A ∩ B)
+     P (A|B)              $P(A|B)$                P (A|B) =
+     (Conditional                                                P (B)
+     probability)
+     E(X)                 $E(X)$                  E(X + Y ) =
+     (Expected value of                           E(X) + E(Y )
+     random variable)
+     V (X)                $V(X)$                  V (5X) = 25V (X)
+     (Variance of
+     random variable)
+
+
+      4.11          Statistics-related Operators
+     Symbols              LaTeX Code              Example
+     (Explanation)
+
+18                                       4.11 Statistics-related Operators
+Comprehensive List of Mathematical Symbols
+
+X                     $\overline{X}$          3X = 3X
+(Sample mean)
+                                                       P
+ 2                                                 2   (X − X)2
+s                     $s^2$                   s =
+(Sample variance)                                       n−1
+                                                       P
+ 2                                                 2       (X − µ)2
+σ                     $\sigma^2$              σ =
+(Population                                                  n
+variance)
+
+
+ 4.12           Key Probability Functions and Distri-
+                butions
+Symbols              LaTeX Code               Example
+(Explanation)
+
+Bin(n, p)            $\operatorname{Bin}      If X stands for the
+(Binomial            (n, p)$                  number of heads in 10
+distribution)                                 coin tosses, then
+                                              X ∼ Bin(10, 0.5).
+Geo(p)               $\operatorname{Geo}      Y ∼ Geo(1/5), then
+(Geometric           (p)$                     E(Y ) = 5.
+distribution)
+U (a, b)             $U(a,b)$                 If X ∼ U (3, 7), then
+(Continuous                                            (7 − 3)2
+uniform                                       V (X) =            .
+                                                          12
+distribution)
+N (µ, σ 2 )          $N(\mu, \sigma^2)$       If X ∼ N (3, 52 ), then
+(Normal                                       X −3
+distribution)                                         ∼ Z.
+                                                 5
+zα                   $z_{\alpha}$             z0.05 ≈ 1.645
+(Critical z-score)
+tα,ν                 $t_{\alpha, \nu}$        t0.05,1000 ≈ z0.05
+(Critical t-score)
+χ2α,ν                $\chi^2_{\alpha, \nu}$ χ20.05,30 ≈ 43.77
+(Critical Chi-
+squared-score)
+
+
+4.12 Key Probability Functions and Distributions                        19
+                                   Comprehensive List of Mathematical Symbols
+
+     Fα,ν1 ,ν2                    $F_{\alpha, \nu_1,             F0.05,20,20 ≈ 2.1242
+     (Critical F-score)           \nu_2}$
+
+
+
+         4.13             Calculus-related Operators
+     Symbols                      LaTeX Code                     Example
+     (Explanation)
+                                                                        n+3   1
+      lim a
+     n→∞ n
+                                  $\displaystyle \lim_            lim
+                                                                 n→∞
+                                                                            =
+                                  {n \to \infty} a_n$                    2n   2
+     (Limit of
+     sequence)
+                                                                     π sin x
+     lim f (x)
+     x→c
+                         $\displaystyle \lim_                    lim         =
+                                                                 x→3    2
+     (Limit of function) {x \to c} f(x)$                         π
+                                                                   lim sin x
+                                                                 2 x→3
+     sup(A)                       $\sup(A)$                      sup( [−3, 5) ) = 5
+     (Supremum)
+                                                                         (         )
+                                                                         1 1
+     inf(A)                       $\inf(A)$                      If B =   , , . . . , then
+     (Infimum)                                                           1 2
+                                                                 inf(B) = 0.
+     f 0 , f 00 , f 000 , f (n)   $f'$, $f''$, $f'''$,           (sin x)000 = − cos x
+     (Derivative)                 $f^{(n)}$
+     Z b                                                         Z 1
+                                                                     1      π
+           f (x) dx               $\displaystyle \int_a^                2
+                                                                          =
+      a                                                           0 1+x     4
+                                  b f(x)\,\mathrm{d}x$
+     (Definite integral)
+     Z                                                           Z
+        f (x) dx                  $\displaystyle \int f(x)           ln x dx = x ln x − x
+     (Indefinite                  \,\mathrm{d}x$
+     integral)
+     fx                           $f_x$                          If f (x, y) = x2 y 3 , then
+     (Partial derivative)                                        fx (x, y) = 2xy 3 .
+
+
+
+
+20                                                       4.13 Calculus-related Operators
+Comprehensive List of Mathematical Symbols
+
+
+ 5 Relational Symbols
+ 5.1      Equality-based Relational Symbols
+Symbols             LaTeX Code            Example
+(Explanation)
+
+x=y                 $x = y$               3x − x = 2x
+(Equal)
+x 6= y              $x \ne y$             2 6= 3
+(Non-equal)
+x≈y                 $x \approx y$         π ≈ 3.1416
+(Approximately
+equal)
+x ∼ y, xRy          $x \sim y$, $xRy$     xRy if and only if
+(Related to)                              |x| = |y|
+x≡y                 $x \equiv y$          2 ≡ 101 in mod 33
+(Equivalent to)
+f (x) ∝ g(x)        $f(x) \propto g(x)$   V ∝ r3
+(Proportional to)
+
+
+ 5.2      Comparison-based Relational Symbols
+Symbols             LaTeX Code            Example
+(Explanation)
+
+x<y                 $x < y$               sin x < 3
+(Less than)
+x>y                 $x > y$               π>e
+(Greater than)
+x≤y                 $x \le y$             n! ≤ nn
+(Less than or
+equal to)
+
+
+
+5.2 Comparison-based Relational Symbols                        21
+                         Comprehensive List of Mathematical Symbols
+
+     x≥y                 $x \ge y$                x2 ≥ 0
+     (Greater than or
+     equal to)
+
+
+      5.3         Number-related Relational Symbols
+     Symbols             LaTeX Code               Example
+     (Explanation)
+
+     m|n                 $m \mid n$               101 | 1111
+     (Divisibility)
+     m⊥n                $m \perp n$               31 ⊥ 97
+     (Coprime integers)
+
+
+      5.4         Geometry-related Relational Symbols
+     Symbols             LaTeX Code               Example
+     (Explanation)
+
+     ℓ1 k ℓ2             $\ell_1 \parallel        P Q k RS
+     (Parallel)          \ell_2$
+                                                  −→ −−→
+     ℓ1 ⊥ ℓ2             $\ell_1 \perp \ell_2$    AB ⊥ BC
+     (Perpendicular)
+     F ∼ F0              $F \sim F'$              4ABC ∼ 4DEF
+     (Similar figures)
+     F ∼= F0             $F \cong F'$             □ABCD ∼
+                                                        = □P QRS
+     (Congruent
+     figures)
+
+
+      5.5         Set-related Relational Symbols
+     Symbols             LaTeX Code               Example
+     (Explanation)
+
+
+
+22                                      5.5 Set-related Relational Symbols
+Comprehensive List of Mathematical Symbols
+
+                                             2
+a∈A                 $a \in A$                  ∈R
+(Member of)                                  3
+
+a∈/A              $a \notin A$               π∈
+                                              /Q
+(Not a member of)
+A⊆B                 $A \subseteq B$          A∩B ⊆A
+(Subset of)
+A=B                 $A = B$                  If A = B, then A ⊆ B.
+(Equal Sets)
+
+
+ 5.6        Logic-related Relational Symbols
+Symbols             LaTeX Code               Example
+(Explanation)
+
+P =⇒ Q              $P \implies Q$           x is even =⇒
+(Implies)                                    2 divides x
+P ⇐= Q              $P \impliedby Q$         x = 3 ⇐= 3x + 2 = 11
+(Implied by)
+P ⇐⇒ Q,             $P \iff Q$,              x 6= y ⇐⇒
+P ≡Q                $P \equiv Q$             (x − y)2 > 0
+(If and only if)
+P ∴Q                $P \therefore Q$         i ∈ C ∴ ∃z (z ∈ C)
+(Therefore)
+                                                  π
+P ∵Q                $P \because Q$           x=     ∵
+(Because)                                         2
+                                             sin x = 1 and cos x = 0
+
+
+
+ 5.7        Probability-related Relational Symbols
+Symbols             LaTeX Code               Example
+(Explanation)
+
+A⊥B                 $A \perp B$              If A ⊥ B, then
+(Independent                                 P (A ∩ B) =
+events)                                      P (A) ∩ P (B).
+
+5.7 Probability-related Relational Symbols                             23
+                           Comprehensive List of Mathematical Symbols
+
+     X∼F                   $X \sim F$             Y ∼ Bin(30, 0.4)
+     (X follows
+     distribution F )
+
+
+      5.8       Calculus-related Relational Symbols
+     Symbols               LaTeX Code             Example
+     (Explanation)
+                                                            x
+     f (x) ∼ g(x)          $f(x) \sim g(x)$       π(x) ∼
+     (Asymptotically                                       ln x
+     equal)
+     f (x) ∈ O(g(x))       $f(x) \in O(g(x))$     2x2 + 3x + 3 ∈ O(x2 )
+     (In the big-O of)
+
+
+
+      6 Notational Symbols
+      6.1       Common Notational Symbols
+     Symbols               LaTeX Code             Example
+     (Explanation)
+
+     . . ., · · ·          $\ldots$, $\cdots$     12 + 22 + · · · + n2
+     (Horizontal
+     ellipsis)
+                                                                   
+                                                   a11    · · · a1n 
+                                                                    
+     ..., . . .            $\vdots$, $\ddots$      ..
+                                                   .
+                                                           . . . .. 
+                                                                  . 
+                                                                    
+     (Vertical ellipsis)                                           
+                                                    am1 · · · amn
+     f : A → B,      $f : A \to B$, $A            A function g : N → R
+     A→B
+         f            \overset{f}{\to} B$         can be thought of as a
+     (Function’s                                  sequence.
+     domain/codomain
+     specifier)
+
+
+24                                        6.1 Common Notational Symbols
+Comprehensive List of Mathematical Symbols
+
+x 7→ f (x)            $x \mapsto f(x)$     The function x 7→ x2 is
+(Function                                  increasing in the
+mapping rule)                              interval [0, ∞).
+Q.E.D., ■, □          $Q. E. D.$,          Thus the result is
+(End-of-the-proof     $\blacksquare$,      established as desired.
+symbols)              $\square$            ■
+Q.E.A., ⊥             $Q. E. A.$, $\bot$   Multiplying both sides
+(Contradiction                             of the equation yields
+symbols)                                   that 1 = 2. ⊥
+
+
+     6.2    Notational Symbols in Geometry and
+            Trigonometry
+Symbols               LaTeX Code           Example
+(Explanation)
+◦
+                      $^{\circ}$           cos(90◦ ) = 0
+(Degree)
+                                                     !◦
+0                                            0  35
+                      $'$                  35 =
+(Arcminute)                                     60
+                                                      !0
+00                                           00 20
+                      $''$                 20 =
+(Arcsecond)                                     60
+
+rad                   $\mathrm{rad}$       π rad = 180◦
+(Radian)
+grad                  $\mathrm{grad}$      100 grad = 90◦
+(Gradian)
+
+
+     6.3    Notational Symbols in Calculus
+Symbols               LaTeX Code           Example
+(Explanation)
+
+                                           n2 + 1
++∞                    $+\infty$                   → +∞
+(Positive infinity)                          n
+
+6.3 Notational Symbols in Calculus                                   25
+                             Comprehensive List of Mathematical Symbols
+
+     −∞                     $-\infty$                    lim ex = 0
+                                                        x→−∞
+     (Negative infinity)
+                                                              ∆y
+     ∆x                     $\Delta x$                  m=
+     (Change in                                               ∆x
+     variable)
+     dx                     $\mathrm{d} x$              dy = f 0 (x) dx
+     (Differential)
+                                                        ∂f
+     ∂x                     $\partial x$                   dx
+     (Partial                                           ∂x
+     differential)
+     df                     $\mathrm{d} f$              dg(x, y) =
+     (Total differential)                               ∂g       ∂g
+                                                           dx +     dy
+                                                        ∂x       ∂y
+
+
+
+      6.4       Notational Symbols in Probability and
+                Statistics
+     Symbols                LaTeX Code                  Example
+     (Explanation)
+
+     i.i.d.                 i.i.d.                      Given n i.i.d. random
+     (Independent and                                   variables X1 , . . . , Xn ,
+     identically                                        V (X1 + · · · + Xn ) =
+     distributed)                                       V (X1 ) + · · · + V (Xn ).
+     H0                     $H_0$                       H0 : µ = 23
+     (Null hypothesis)
+     Ha                     $H_a$                       Ha : σ12 6= σ22
+     (Alternative
+     hypothesis)
+
+
+
+      7 Additional Resources
+         • Ultimate LaTeX Reference Guide: A definitive reference guide
+           on the LaTeX language, with the commands, environments and
+
+26                          6.4 Notational Symbols in Probability and Statistics
+Comprehensive List of Mathematical Symbols
+
+      packages most LaTeX users will ever need
+   • Definitive Guide to Learning Higher Mathematics: A standalone
+     10-principle framework for tackling higher mathematical learning,
+     thinking and problem solving
+   • 10 Commandments of Higher Mathematical Learning: An illus-
+     trated web guide on 10 scalable rules for learning higher mathe-
+     matics
+   • Definitive Glossary of Higher Mathematical Jargon: A tour around
+     higher mathematics in 100 terms
+
+
+
+
+6.4 Notational Symbols in Probability and Statistics                     27
+
