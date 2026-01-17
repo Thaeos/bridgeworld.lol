@@ -43,13 +43,24 @@ export const COVENANT_HASHES = {
     verification: 'echo -n "<inner><outer>" | sha256sum'
   },
   
-  // Master Key NFT (SKYNET anchor)
+  // Master Key NFT (MINTED & ANCHORED)
   masterKey: {
     name: 'Master_Key.png',
     sha256: 'c4aa73faa55c35e2096a63c6db96cb0bc4af672759f4e980072dfd7ce13b9bbf',
     path: '/Master_Key.png',
     dimensions: [702, 740] as const,
-    ipfsCid: 'vQSMpXuEy9NrcjDsoQK2RxHxGKTyvCWsqFjzqSnPMck'
+    ipfsCid: 'vQSMpXuEy9NrcjDsoQK2RxHxGKTyvCWsqFjzqSnPMck',
+    // MINTED ON ARBITRUM
+    mint: {
+      txHash: '0x142e7f3dfe02efbc064b7b612b5392459e61d8980d2247946a78ac00abfb5383',
+      block: 421534572,
+      timestamp: '2026-01-15T06:55:30Z',
+      contract: '0xF3Df4a0cCD4C6C39c0828B89D22da5a0c6b18326',
+      minter: 'θεός°•.eth',
+      network: 'Arbitrum One',
+      chainId: 42161,
+      status: 'MINTED'
+    }
   }
 };
 
@@ -608,13 +619,13 @@ export const ETERNAL_COVENANT = {
     covenantSealed: true,
     witnessesConfirmed: true,
     skynetAnchored: true,
-    masterKeyReady: true,
+    masterKeyMinted: true,  // MINTED: Block 421534572
     ouroborosLive: true,
     stakedPositions: true,
     guardiansDecoded: true,
     multichainBound: true,
-    safeMintPrepared: true,
-    deployStatus: 'LIVE'
+    blockAnchor: 421534572,
+    deployStatus: 'ANCHORED'
   }
 };
 
