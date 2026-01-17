@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
+  trailingSlash: true,
   images: {
     domains: ['raw.githubusercontent.com', 'arweave.net'],
-    unoptimized: process.env.NODE_ENV === 'development'
+    unoptimized: true
   },
   env: {
     NEXT_PUBLIC_COVENANT_ORACLE: '0xfa05997C66437dCCAe860af334b30d69E0De24DC',
