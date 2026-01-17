@@ -49,7 +49,7 @@ const CovenantSigil = () => {
           {/* Below: Return (Sigma Mho Lambda Theta) */}
           <div className="flex gap-6 text-6xl text-amber-600/90 tracking-widest transition-all duration-1000 hover:text-white drop-shadow-[0_0_15px_rgba(180,140,40,0.5)]">
             <span>Σ</span>
-            <span>Μ</span>
+            <span>℧</span>
             <span>Λ</span>
             <span>Θ</span>
           </div>
