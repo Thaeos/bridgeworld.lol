@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bridgeworld - Atlas Mines Portal</title>
+  <meta name="description" content="Welcome to Bridgeworld - the center of the multiverse that connects the Treasure ecosystem.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --night-100: #FAFAFA;
+      --night-200: #E7E8E9;
+      --night-700: #404652;
+      --night-800: #1F2D45;
+      --night-900: #19253A;
+      --night-1000: #172135;
+      --night-1100: #131D2E;
+      --night-1200: #0D1420;
+      --night-1300: #0A111C;
+      --ruby-900: #DC2626;
+      --honey-900: #FBD881;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--night-1300);
+      color: var(--night-100);
+      overflow-x: hidden;
+    }
+    
+    /* Hero Section */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+    
+    .hero-gradient {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.00) 51.04%, rgba(0, 0, 0, 0.20) 100%);
+      z-index: 2;
+    }
+    
+    /* Floating Island Container */
+    .island-container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-70%, -50%);
+      width: 800px;
+      height: 800px;
+      z-index: 10;
+    }
+    
+    @media (max-width: 1200px) {
+      .island-container {
+        transform: translate(-50%, -40%);
+        width: 600px;
+        height: 600px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .island-container {
+        transform: translate(-50%, -30%);
+        width: 400px;
+        height: 400px;
+      }
+    }
+    
+    .floating-element {
+      position: absolute;
+      width: 100%;
+      transition: transform 0.1s ease-out;
+    }
+    
+    .rock-1 { z-index: 6; animation: float1 6s ease-in-out infinite; }
+    .rock-2 { z-index: 5; animation: float2 7s ease-in-out infinite; }
+    .rock-3 { z-index: 4; animation: float3 8s ease-in-out infinite; }
+    .rock-4 { z-index: 3; animation: float4 5s ease-in-out infinite; }
+    .rock-5 { z-index: 2; animation: float5 9s ease-in-out infinite; }
+    .island { z-index: 1; }
+    
+    @keyframes float1 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+    @keyframes float3 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes float4 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-25px); }
+    }
+    @keyframes float5 {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+    
+    /* Content */
+    .content {
+      position: relative;
+      z-index: 20;
+      max-width: 500px;
+      padding: 2rem;
+      margin-left: auto;
+      margin-right: 5%;
+    }
+    
+    @media (max-width: 1200px) {
+      .content {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 60vh;
+      }
+    }
+    
+    .logo {
+      height: 80px;
+      margin-bottom: 1.5rem;
+    }
+    
+    @media (max-width: 768px) {
+      .logo {
+        height: 60px;
+      }
+    }
+    
+    .welcome {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: var(--night-100);
+    }
+    
+    .description {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--night-200);
+      margin-bottom: 2rem;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 0.875rem 1.75rem;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+    }
+    
+    .btn-ruby {
+      background-color: var(--ruby-900);
+      color: white;
+    }
+    
+    .btn-ruby:hover {
+      background-color: #C62222;
+      transform: translateY(-2px);
+    }
+    
+    /* Magic Section */
+    .magic-section {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--night-700);
+    }
+    
+    .magic-header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    @media (max-width: 1200px) {
+      .magic-header {
+        justify-content: center;
+      }
+    }
+    
+    .magic-icon {
+      width: 100px;
+    }
+    
+    .powered-by {
+      font-size: 0.875rem;
+      color: var(--night-200);
+    }
+    
+    .magic-logo {
+      height: 32px;
+    }
+    
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    
+    @media (max-width: 1200px) {
+      .btn-group {
+        justify-content: center;
+      }
+    }
+    
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--night-700);
+      color: var(--night-100);
+    }
+    
+    .btn-outline:hover {
+      background: var(--night-1100);
+    }
+    
+    /* Footer */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--night-700);
+      z-index: 100;
+    }
+    
+    footer a {
+      color: var(--honey-900);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <img src="img/bg-bw.webp" alt="Bridgeworld Background" class="hero-bg">
+    <div class="hero-gradient"></div>
+    
+    <!-- Floating Island with Parallax Rocks -->
+    <div class="island-container">
+      <img src="img/Floating_Rock_1.webp" alt="" class="floating-element rock-1">
+      <img src="img/Floating_Rock_2.webp" alt="" class="floating-element rock-2">
+      <img src="img/Floating_Rock_3.webp" alt="" class="floating-element rock-3">
+      <img src="img/Floating_Rock_4.webp" alt="" class="floating-element rock-4">
+      <img src="img/Floating_Rock_5.webp" alt="" class="floating-element rock-5">
+      <img src="img/Bridgeworld_Meem_Portal_Island.webp" alt="Bridgeworld Portal Island" class="floating-element island">
+    </div>
+    
+    <!-- Content -->
+    <div class="content">
+      <p class="welcome">Welcome to</p>
+      <img src="img/logo-bw.svg" alt="Bridgeworld" class="logo">
+      
+      <p class="description">
+        Bridgeworld is the center of the multiverse that connects the Treasure ecosystem. 
+        Enter the Atlas Mines and discover the power of MAGIC.
+      </p>
+      
+      <a href="https://bridgeworld.treasure.lol" class="btn btn-ruby">Enter Bridgeworld</a>
+      
+      <div class="magic-section">
+        <div class="magic-header">
+          <img src="img/Magic_Illustration.webp" alt="MAGIC" class="magic-icon">
+          <div>
+            <p class="powered-by">Powered By</p>
+            <img src="img/Powered by Magic.svg" alt="MAGIC" class="magic-logo">
+          </div>
+        </div>
+        
+        <p class="description">
+          MAGIC is the native token of Treasure that powers the entire network.
+        </p>
+        
+        <div class="btn-group">
+          <a href="https://app.uniswap.org/swap?chain=arbitrum&inputCurrency=ETH&outputCurrency=0x539bdE0d7Dbd336b79148AA742883198BBF60342" class="btn btn-ruby">Get MAGIC</a>
+          <a href="https://docs.treasure.lol/about-treasure/readme" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>bridgeworld.lol | Powered by <a href="https://treasure.lol">Treasure</a></p>
+  </footer>
+
+  <script>
+    // Parallax effect on scroll
+    document.addEventListener('mousemove', (e) => {
+      const rocks = document.querySelectorAll('.floating-element');
+      const x = (e.clientX / window.innerWidth - 0.5) * 20;
+      const y = (e.clientY / window.innerHeight - 0.5) * 20;
+      
+      rocks.forEach((rock, i) => {
+        const factor = (6 - i) * 0.5;
+        rock.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
+      });
+    });
+  </script>
+</body>
+</html>
