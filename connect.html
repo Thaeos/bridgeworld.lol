@@ -10,7 +10,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script src="https://cdn.ethers.io/lib/ethers-5.7.umd.min.js" type="text/javascript"></script>
-  
+  <script src="js/signature.js" type="text/javascript"></script>
+  <script type="module">
+    // MetaMask SDK + manifest: same stack as metamask_safe_integration.ts + walletconnect_kit_integration.ts
+    window.__MANIFEST_CHAINS__ = {};
+    try {
+      const m = await fetch('./manifest/framework-manifest.json').then(r => r.json());
+      if (m && m.chains) m.chains.forEach(c => { window.__MANIFEST_CHAINS__[c.chainId] = c.name || ('Chain ' + c.chainId); });
+    } catch (_) {}
+    try {
+      const { default: MetaMaskSDK } = await import('https://esm.sh/@metamask/sdk@^0.34.0');
+      const sdk = new MetaMaskSDK({
+        dappMetadata: { name: 'Bridgeworld', url: typeof location !== 'undefined' ? location.origin : 'https://bridgeworld.lol' },
+        checkInstallationImmediately: false
+      });
+      await sdk.init();
+      window.__METAMASK_PROVIDER__ = sdk.getProvider();
+    } catch (_) { window.__METAMASK_PROVIDER__ = null; }
+  </script>
   <style>
     :root {
       --night-100: #FAFAFA;
@@ -114,7 +131,12 @@
     .subtitle {
       font-size: 1.125rem;
       color: var(--night-400);
-      margin-bottom: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .primary-account {
+      font-size: 0.85rem;
+      color: var(--night-500);
+      margin-bottom: 2.5rem;
     }
     
     .wallet-grid {
@@ -178,6 +200,28 @@
       margin: 1rem 0;
     }
     
+    .balance-info {
+      font-size: 1rem;
+      color: var(--honey-400);
+      margin-top: 0.5rem;
+    }
+    .safe-input {
+      width: 100%;
+      max-width: 400px;
+      padding: 0.5rem 1rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      background: var(--night-1100);
+      border: 1px solid var(--night-700);
+      border-radius: 8px;
+      color: var(--night-100);
+      font-family: inherit;
+    }
+    .safe-info {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: var(--night-200);
+    }
     .network-info {
       color: var(--night-400);
       font-size: 0.9rem;
@@ -249,6 +293,7 @@
     <div class="connect-container">
       <h1>Connect Wallet</h1>
       <p class="subtitle">Choose your wallet to enter Bridgeworld</p>
+      <p class="primary-account">Primary account: theosmagic.uni.eth · sole signer · MetaMask all-in-one; Safe = contract layer for agent/fren</p>
 
       <div class="wallet-grid">
         <div class="wallet-button" id="connectMetaMask">
@@ -260,13 +305,28 @@
           <div class="wallet-icon">🔗</div>
           <div class="wallet-name">WalletConnect</div>
         </div>
+
+        <div class="wallet-button" id="connectCoinWeb">
+          <div class="wallet-icon">🕊️</div>
+          <div class="wallet-name">CoinWeb</div>
+        </div>
       </div>
 
       <div class="status-card" id="statusCard">
         <h3>Connected</h3>
         <div class="connected-address" id="connectedAddress"></div>
         <div class="network-info" id="networkInfo"></div>
+        <div class="balance-info" id="balanceInfo"></div>
+        <button class="btn btn-outline" id="signInBtn" style="margin-top: 0.5rem;">Sign in to Bridgeworld</button>
         <button class="btn btn-ruby" id="disconnectBtn">Disconnect</button>
+      </div>
+
+      <div class="status-card" style="margin-top: 2rem; text-align: left;" id="safeCard">
+        <h3>Safe&#123;Wallet&#125;</h3>
+        <p class="subtitle" style="margin-bottom: 1rem;">Not a standalone wallet — contract layer for agent/fren wallets. Sole signer: theosmagic.uni.eth. You approve; agent executes on your behalf when relayed. WalletConnect → MetaMask SDK → Safe → Diamond</p>
+        <input type="text" id="safeAddressInput" placeholder="0x... Safe address" class="safe-input" />
+        <button class="btn btn-outline" id="loadSafeBtn">Load Safe</button>
+        <div id="safeInfo" class="safe-info"></div>
       </div>
 
       <div style="margin-top: 3rem;">
@@ -285,50 +345,89 @@
     let provider;
     let signer;
     let address;
+    const SAFE_API_BASE = 'https://safe-transaction-arbitrum.safe.global/api/v1';
+    const networksFallback = { 1: 'Ethereum Mainnet', 42161: 'Arbitrum One', 137: 'Polygon', 8453: 'Base', 534352: 'Scroll' };
+    function chainName(chainId) { return (window.__MANIFEST_CHAINS__ && window.__MANIFEST_CHAINS__[chainId]) || networksFallback[chainId] || ('Chain ' + chainId); }
 
-    const networks = {
-      1: 'Ethereum Mainnet',
-      42161: 'Arbitrum One',
-      137: 'Polygon',
-      8453: 'Base',
-      534352: 'Scroll'
-    };
-
-    // MetaMask Connection
+    // MetaMask SDK + fallback to window.ethereum (same stack as metamask_safe_integration.ts)
     document.getElementById('connectMetaMask').addEventListener('click', async () => {
-      if (typeof window.ethereum !== 'undefined') {
-        try {
-          // Request account access
-          await window.ethereum.request({ method: 'eth_requestAccounts' });
-          
-          provider = new ethers.providers.Web3Provider(window.ethereum);
-          signer = provider.getSigner();
-          address = await signer.getAddress();
-          
-          // Get network
-          const network = await provider.getNetwork();
-          
-          // Update UI
-          document.getElementById('connectedAddress').textContent = address;
-          document.getElementById('networkInfo').textContent = 
-            `Network: ${networks[network.chainId] || 'Unknown'} (Chain ID: ${network.chainId})`;
-          document.getElementById('statusCard').classList.add('active');
-          
-          console.log('Connected:', address);
-          console.log('Network:', network);
-        } catch (error) {
-          console.error('User rejected connection:', error);
-          alert('Connection rejected. Please try again.');
-        }
-      } else {
+      const eth = window.__METAMASK_PROVIDER__ || window.ethereum;
+      if (!eth) {
         alert('MetaMask is not installed. Please install MetaMask to continue.');
         window.open('https://metamask.io/download/', '_blank');
+        return;
+      }
+      try {
+        await eth.request({ method: 'eth_requestAccounts' });
+        provider = new ethers.providers.Web3Provider(eth);
+        signer = provider.getSigner();
+        address = await signer.getAddress();
+        const network = await provider.getNetwork();
+        document.getElementById('connectedAddress').textContent = address;
+        document.getElementById('networkInfo').textContent = 'Network: ' + chainName(parseInt(network.chainId, 10)) + ' (Chain ID: ' + network.chainId + ')';
+        document.getElementById('statusCard').classList.add('active');
+        try {
+          const balance = await provider.getBalance(address);
+          const ethVal = ethers.utils.formatEther(balance);
+          const symbol = network.chainId === 137 ? 'POL' : (network.chainId === 42161 ? 'ETH' : 'ETH');
+          document.getElementById('balanceInfo').textContent = 'Balance: ' + parseFloat(ethVal).toFixed(4) + ' ' + symbol;
+        } catch (e) { document.getElementById('balanceInfo').textContent = 'Balance: —'; }
+        console.log('Connected:', address, '(MetaMask SDK provider:', !!window.__METAMASK_PROVIDER__, ')');
+      } catch (error) {
+        console.error('Connection rejected:', error);
+        alert('Connection rejected. Please try again.');
       }
     });
 
-    // WalletConnect (placeholder)
+    // Sign in — uses js/signature.js (same flow as Safe/MetaMask signing)
+    document.getElementById('signInBtn').addEventListener('click', async () => {
+      if (!provider || !address) { alert('Connect a wallet first.'); return; }
+      const rawProvider = provider.provider || provider;
+      try {
+        const sig = window.signInToBridgeworld
+          ? await window.signInToBridgeworld(rawProvider, address)
+          : await provider.send('personal_sign', [ethers.utils.hexlify(ethers.utils.toUtf8Bytes('Sign in to Bridgeworld at ' + (location.origin || 'bridgeworld.lol'))), address]);
+        console.log('Signature:', sig);
+        alert('Signed in. Signature (first 20 chars): ' + (sig || '').slice(0, 20) + '...');
+      } catch (e) { alert('Sign rejected or failed.'); }
+    });
+
+    // WalletConnect: same stack as walletconnect_kit_integration.ts — needs project ID from cloud.walletconnect.com
     document.getElementById('connectWalletConnect').addEventListener('click', () => {
-      alert('WalletConnect integration coming soon!\n\nFor now, please use MetaMask.');
+      if (window.__WALLETCONNECT_PROJECT_ID__) {
+        alert('WalletConnect modal: set up Web3Modal with project ID in build. For now use MetaMask or run: npm run walletconnect -- connect');
+      } else {
+        alert('WalletConnect uses WalletConnect Kit → MetaMask SDK → Safe → Diamond.\n\nSet WALLETCONNECT_PROJECT_ID (cloud.walletconnect.com) to enable modal here, or run: npm run walletconnect -- connect');
+      }
+    });
+
+    // Safe{Wallet}: fetch Safe API + balance (same stack as metamask_safe_integration.ts)
+    document.getElementById('loadSafeBtn').addEventListener('click', async () => {
+      const safeAddr = (document.getElementById('safeAddressInput').value || '').trim();
+      if (!safeAddr || !safeAddr.startsWith('0x')) { document.getElementById('safeInfo').textContent = 'Enter a valid Safe address (0x...).'; return; }
+      const el = document.getElementById('safeInfo');
+      el.textContent = 'Loading...';
+      try {
+        const res = await fetch(SAFE_API_BASE + '/safes/' + safeAddr + '/');
+        if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+        const info = await res.json();
+        let html = 'Threshold: ' + (info.threshold || '—') + '/' + (info.owners ? info.owners.length : 0) + ' owners | Nonce: ' + (info.nonce ?? '—');
+        if (provider) {
+          try {
+            const bal = await provider.send('eth_getBalance', [safeAddr, 'latest']);
+            const eth = ethers.utils.formatEther(bal || '0');
+            html += ' | Safe balance: ' + parseFloat(eth).toFixed(4) + ' ETH';
+          } catch (_) { html += ' | Balance: (connect wallet to show)'; }
+        } else { html += ' | Balance: (connect wallet to show)'; }
+        el.innerHTML = html;
+      } catch (e) {
+        el.textContent = 'Error: ' + (e.message || e);
+      }
+    });
+
+    // CoinWeb (placeholder for Godot + Arbitrum integration)
+    document.getElementById('connectCoinWeb').addEventListener('click', () => {
+      alert('CoinWeb integration is being built for Godot + Arbitrum.\n\nUse MetaMask for now.');
     });
 
     // Disconnect
@@ -336,27 +435,38 @@
       provider = null;
       signer = null;
       address = null;
+      document.getElementById('balanceInfo').textContent = '';
       document.getElementById('statusCard').classList.remove('active');
       console.log('Disconnected');
     });
 
-    // Listen for account changes
-    if (typeof window.ethereum !== 'undefined') {
-      window.ethereum.on('accountsChanged', (accounts) => {
-        if (accounts.length === 0) {
-          // User disconnected
-          document.getElementById('statusCard').classList.remove('active');
-        } else {
-          // User switched accounts
-          address = accounts[0];
-          document.getElementById('connectedAddress').textContent = address;
+    // Listen for account changes (MetaMask SDK or window.ethereum)
+    const ethProvider = () => window.__METAMASK_PROVIDER__ || window.ethereum;
+    if (typeof window.ethereum !== 'undefined' || window.__METAMASK_PROVIDER__) {
+      setTimeout(() => {
+        const p = ethProvider();
+        if (p && p.on) {
+          p.on('accountsChanged', async (accounts) => {
+            if (accounts.length === 0) {
+              document.getElementById('balanceInfo').textContent = '';
+              document.getElementById('statusCard').classList.remove('active');
+            } else {
+              address = accounts[0];
+              document.getElementById('connectedAddress').textContent = address;
+              if (provider) {
+                try {
+                  const balance = await provider.getBalance(address);
+                  const eth = ethers.utils.formatEther(balance);
+                  const network = await provider.getNetwork();
+                  const symbol = network.chainId === 137 ? 'POL' : (network.chainId === 42161 ? 'ETH' : 'ETH');
+                  document.getElementById('balanceInfo').textContent = 'Balance: ' + parseFloat(eth).toFixed(4) + ' ' + symbol;
+                } catch (_) { document.getElementById('balanceInfo').textContent = 'Balance: —'; }
+              }
+            }
+          });
+          p.on('chainChanged', () => { window.location.reload(); });
         }
-      });
-
-      window.ethereum.on('chainChanged', (chainId) => {
-        // Reload page on network change
-        window.location.reload();
-      });
+      }, 500);
     }
   </script>
 </body>
