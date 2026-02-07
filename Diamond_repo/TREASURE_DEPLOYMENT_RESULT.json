@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-02-05T10:30:02.945Z",
+  "status": "SUCCESS",
+  "network": "Arbitrum One",
+  "chainId": 42161,
+  "facet": {
+    "name": "TreasureIntegrationFacet",
+    "address": "0xdd796aa7265e110b6bc8ce745bb7babda6b88883",
+    "functions": 30
+  },
+  "diamond": {
+    "address": "0xf7993A8df974AD022647E63402d6315137c58ABf",
+    "selectorsAdded": 30
+  },
+  "treasureConfig": {
+    "magicToken": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+    "priceFeed": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
+    "marketplace": "0x2E3b85F85628301a0Bce300Dee3A6B04195A15Ee"
+  },
+  "transactions": [
+    {
+      "step": "Compile TreasureIntegrationFacet",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Deploy TreasureIntegrationFacet",
+      "status": "SUCCESS",
+      "hash": "0x1a86338c6eedfaafb8d49be71dd3695144a6415fa3ce8cbd9f2b437dfa84bcc5"
+    },
+    {
+      "step": "Prepare Diamond Cut",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Execute Diamond Cut",
+      "status": "SUCCESS",
+      "hash": "0xb450384b2a2d551a3b81bf4f38c173917759d048802d47296521af9a3de54e32"
+    },
+    {
+      "step": "Initialize Facet",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Test Spellcaster GM",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Test Crafting System",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Test Guild Management",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Test Payments",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Test MagicSwap V2",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Test Meta Transactions",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Verify ConnectKit",
+      "status": "SUCCESS"
+    },
+    {
+      "step": "Verify TDK Integration",
+      "status": "SUCCESS"
+    }
+  ],
+  "integratedRepos": [
+    "spellcaster-facets",
+    "connectkit",
+    "tdk-js",
+    "tdk-godot",
+    "magicswapv2-contracts",
+    "treasure-project-contracts",
+    "treasure-marketplace-contracts",
+    "hyperlane-example",
+    "LayerZero-v2",
+    "x402",
+    "aifrens-sdk",
+    "web3-starter-template"
+  ]
+}

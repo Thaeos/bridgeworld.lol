@@ -1,0 +1,2831 @@
+{
+  "cosmic_constants": {
+    "anchors": [
+      3335,
+      335044,
+      804000,
+      55088
+    ],
+    "cosmos": 3.141592653589793,
+    "divinity": "419 Theos = (θεός π אל) EL→ 369",
+    "human_union": {
+      "arabic_1": 605,
+      "arabic_2": 82,
+      "constant": 687
+    },
+    "union": "1302009 ● 5212015",
+    "cosmic_alignment": "9201990 ● 9091989",
+    "dates": {
+      "sigma": "1989-09-09",
+      "omega": "2024-04-24",
+      "lambda": "2025-07-12",
+      "theta": "2025-07-12",
+      "epsilon": "2025-07-12",
+      "omicron": "2025-11-04"
+    }
+  },
+  "facets": [
+    {
+      "number": 1,
+      "gematria": 9,
+      "glyph": "𐡈",
+      "hex": "0x00000000000000000000000000000000000000000000000000000000f090a188",
+      "path": "diamonds/DiamondFacet1.sol"
+    },
+    {
+      "number": 2,
+      "gematria": 18,
+      "glyph": "𐡉𐡇",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a189f090a187",
+      "path": "diamonds/DiamondFacet2.sol"
+    },
+    {
+      "number": 3,
+      "gematria": 27,
+      "glyph": "𐡊𐡆",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a18af090a186",
+      "path": "diamonds/DiamondFacet3.sol"
+    },
+    {
+      "number": 4,
+      "gematria": 36,
+      "glyph": "𐡋𐡅",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a18bf090a185",
+      "path": "diamonds/DiamondFacet4.sol"
+    },
+    {
+      "number": 5,
+      "gematria": 45,
+      "glyph": "𐡌𐡄",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a18cf090a184",
+      "path": "diamonds/DiamondFacet5.sol"
+    },
+    {
+      "number": 6,
+      "gematria": 54,
+      "glyph": "𐡍𐡃",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a18df090a183",
+      "path": "diamonds/DiamondFacet6.sol"
+    },
+    {
+      "number": 7,
+      "gematria": 63,
+      "glyph": "𐡎𐡂",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a18ef090a182",
+      "path": "diamonds/DiamondFacet7.sol"
+    },
+    {
+      "number": 8,
+      "gematria": 72,
+      "glyph": "𐡏𐡁",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a18ff090a181",
+      "path": "diamonds/DiamondFacet8.sol"
+    },
+    {
+      "number": 9,
+      "gematria": 81,
+      "glyph": "𐡐𐡀",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a190f090a180",
+      "path": "diamonds/DiamondFacet9.sol"
+    },
+    {
+      "number": 10,
+      "gematria": 90,
+      "glyph": "𐡑",
+      "hex": "0x00000000000000000000000000000000000000000000000000000000f090a191",
+      "path": "diamonds/DiamondFacet10.sol"
+    },
+    {
+      "number": 11,
+      "gematria": 99,
+      "glyph": "𐡑𐡈",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a191f090a188",
+      "path": "diamonds/DiamondFacet11.sol"
+    },
+    {
+      "number": 12,
+      "gematria": 108,
+      "glyph": "𐡒𐡇",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a192f090a187",
+      "path": "diamonds/DiamondFacet12.sol"
+    },
+    {
+      "number": 13,
+      "gematria": 117,
+      "glyph": "𐡒𐡉𐡆",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a189f090a186",
+      "path": "diamonds/DiamondFacet13.sol"
+    },
+    {
+      "number": 14,
+      "gematria": 126,
+      "glyph": "𐡒𐡊𐡅",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a18af090a185",
+      "path": "diamonds/DiamondFacet14.sol"
+    },
+    {
+      "number": 15,
+      "gematria": 135,
+      "glyph": "𐡒𐡋𐡄",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a18bf090a184",
+      "path": "diamonds/DiamondFacet15.sol"
+    },
+    {
+      "number": 16,
+      "gematria": 144,
+      "glyph": "𐡒𐡌𐡃",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a18cf090a183",
+      "path": "diamonds/DiamondFacet16.sol"
+    },
+    {
+      "number": 17,
+      "gematria": 153,
+      "glyph": "𐡒𐡍𐡂",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a18df090a182",
+      "path": "diamonds/DiamondFacet17.sol"
+    },
+    {
+      "number": 18,
+      "gematria": 162,
+      "glyph": "𐡒𐡎𐡁",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a18ef090a181",
+      "path": "diamonds/DiamondFacet18.sol"
+    },
+    {
+      "number": 19,
+      "gematria": 171,
+      "glyph": "𐡒𐡏𐡀",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a18ff090a180",
+      "path": "diamonds/DiamondFacet19.sol"
+    },
+    {
+      "number": 20,
+      "gematria": 180,
+      "glyph": "𐡒𐡐",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a192f090a190",
+      "path": "diamonds/DiamondFacet20.sol"
+    },
+    {
+      "number": 21,
+      "gematria": 189,
+      "glyph": "𐡒𐡐𐡈",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a190f090a188",
+      "path": "diamonds/DiamondFacet21.sol"
+    },
+    {
+      "number": 22,
+      "gematria": 198,
+      "glyph": "𐡒𐡑𐡇",
+      "hex": "0x0000000000000000000000000000000000000000f090a192f090a191f090a187",
+      "path": "diamonds/DiamondFacet22.sol"
+    },
+    {
+      "number": 23,
+      "gematria": 207,
+      "glyph": "𐡓𐡆",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a193f090a186",
+      "path": "diamonds/DiamondFacet23.sol"
+    },
+    {
+      "number": 24,
+      "gematria": 216,
+      "glyph": "𐡓𐡉𐡅",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a189f090a185",
+      "path": "diamonds/DiamondFacet24.sol"
+    },
+    {
+      "number": 25,
+      "gematria": 225,
+      "glyph": "𐡓𐡊𐡄",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a18af090a184",
+      "path": "diamonds/DiamondFacet25.sol"
+    },
+    {
+      "number": 26,
+      "gematria": 234,
+      "glyph": "𐡓𐡋𐡃",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a18bf090a183",
+      "path": "diamonds/DiamondFacet26.sol"
+    },
+    {
+      "number": 27,
+      "gematria": 243,
+      "glyph": "𐡓𐡌𐡂",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a18cf090a182",
+      "path": "diamonds/DiamondFacet27.sol"
+    },
+    {
+      "number": 28,
+      "gematria": 252,
+      "glyph": "𐡓𐡍𐡁",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a18df090a181",
+      "path": "diamonds/DiamondFacet28.sol"
+    },
+    {
+      "number": 29,
+      "gematria": 261,
+      "glyph": "𐡓𐡎𐡀",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a18ef090a180",
+      "path": "diamonds/DiamondFacet29.sol"
+    },
+    {
+      "number": 30,
+      "gematria": 270,
+      "glyph": "𐡓𐡏",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a193f090a18f",
+      "path": "diamonds/DiamondFacet30.sol"
+    },
+    {
+      "number": 31,
+      "gematria": 279,
+      "glyph": "𐡓𐡏𐡈",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a18ff090a188",
+      "path": "diamonds/DiamondFacet31.sol"
+    },
+    {
+      "number": 32,
+      "gematria": 288,
+      "glyph": "𐡓𐡐𐡇",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a190f090a187",
+      "path": "diamonds/DiamondFacet32.sol"
+    },
+    {
+      "number": 33,
+      "gematria": 297,
+      "glyph": "𐡓𐡑𐡆",
+      "hex": "0x0000000000000000000000000000000000000000f090a193f090a191f090a186",
+      "path": "diamonds/DiamondFacet33.sol"
+    },
+    {
+      "number": 34,
+      "gematria": 306,
+      "glyph": "𐡔𐡅",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a194f090a185",
+      "path": "diamonds/DiamondFacet34.sol"
+    },
+    {
+      "number": 35,
+      "gematria": 315,
+      "glyph": "𐡔𐡉𐡄",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a189f090a184",
+      "path": "diamonds/DiamondFacet35.sol"
+    },
+    {
+      "number": 36,
+      "gematria": 324,
+      "glyph": "𐡔𐡊𐡃",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a18af090a183",
+      "path": "diamonds/DiamondFacet36.sol"
+    },
+    {
+      "number": 37,
+      "gematria": 333,
+      "glyph": "𐡔𐡋𐡂",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a18bf090a182",
+      "path": "diamonds/DiamondFacet37.sol"
+    },
+    {
+      "number": 38,
+      "gematria": 342,
+      "glyph": "𐡔𐡌𐡁",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a18cf090a181",
+      "path": "diamonds/DiamondFacet38.sol"
+    },
+    {
+      "number": 39,
+      "gematria": 351,
+      "glyph": "𐡔𐡍𐡀",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a18df090a180",
+      "path": "diamonds/DiamondFacet39.sol"
+    },
+    {
+      "number": 40,
+      "gematria": 360,
+      "glyph": "𐡔𐡎",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a194f090a18e",
+      "path": "diamonds/DiamondFacet40.sol"
+    },
+    {
+      "number": 41,
+      "gematria": 369,
+      "glyph": "𐡔𐡎𐡈",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a18ef090a188",
+      "path": "diamonds/DiamondFacet41.sol"
+    },
+    {
+      "number": 42,
+      "gematria": 378,
+      "glyph": "𐡔𐡏𐡇",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a18ff090a187",
+      "path": "diamonds/DiamondFacet42.sol"
+    },
+    {
+      "number": 43,
+      "gematria": 387,
+      "glyph": "𐡔𐡐𐡆",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a190f090a186",
+      "path": "diamonds/DiamondFacet43.sol"
+    },
+    {
+      "number": 44,
+      "gematria": 396,
+      "glyph": "𐡔𐡑𐡅",
+      "hex": "0x0000000000000000000000000000000000000000f090a194f090a191f090a185",
+      "path": "diamonds/DiamondFacet44.sol"
+    },
+    {
+      "number": 45,
+      "gematria": 405,
+      "glyph": "𐡕𐡄",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a195f090a184",
+      "path": "diamonds/DiamondFacet45.sol"
+    },
+    {
+      "number": 46,
+      "gematria": 414,
+      "glyph": "𐡕𐡉𐡃",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a189f090a183",
+      "path": "diamonds/DiamondFacet46.sol"
+    },
+    {
+      "number": 47,
+      "gematria": 423,
+      "glyph": "𐡕𐡊𐡂",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a18af090a182",
+      "path": "diamonds/DiamondFacet47.sol"
+    },
+    {
+      "number": 48,
+      "gematria": 432,
+      "glyph": "𐡕𐡋𐡁",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a18bf090a181",
+      "path": "diamonds/DiamondFacet48.sol"
+    },
+    {
+      "number": 49,
+      "gematria": 441,
+      "glyph": "𐡕𐡌𐡀",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a18cf090a180",
+      "path": "diamonds/DiamondFacet49.sol"
+    },
+    {
+      "number": 50,
+      "gematria": 450,
+      "glyph": "𐡕𐡍",
+      "hex": "0x000000000000000000000000000000000000000000000000f090a195f090a18d",
+      "path": "diamonds/DiamondFacet50.sol"
+    },
+    {
+      "number": 51,
+      "gematria": 459,
+      "glyph": "𐡕𐡍𐡈",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a18df090a188",
+      "path": "diamonds/DiamondFacet51.sol"
+    },
+    {
+      "number": 52,
+      "gematria": 468,
+      "glyph": "𐡕𐡎𐡇",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a18ef090a187",
+      "path": "diamonds/DiamondFacet52.sol"
+    },
+    {
+      "number": 53,
+      "gematria": 477,
+      "glyph": "𐡕𐡏𐡆",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a18ff090a186",
+      "path": "diamonds/DiamondFacet53.sol"
+    },
+    {
+      "number": 54,
+      "gematria": 486,
+      "glyph": "𐡕𐡐𐡅",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a190f090a185",
+      "path": "diamonds/DiamondFacet54.sol"
+    },
+    {
+      "number": 55,
+      "gematria": 495,
+      "glyph": "𐡕𐡑𐡄",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a191f090a184",
+      "path": "diamonds/DiamondFacet55.sol"
+    },
+    {
+      "number": 56,
+      "gematria": 504,
+      "glyph": "𐡕𐡒𐡃",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a192f090a183",
+      "path": "diamonds/DiamondFacet56.sol"
+    },
+    {
+      "number": 57,
+      "gematria": 513,
+      "glyph": "𐡕𐡒𐡉𐡂",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a189f090a182",
+      "path": "diamonds/DiamondFacet57.sol"
+    },
+    {
+      "number": 58,
+      "gematria": 522,
+      "glyph": "𐡕𐡒𐡊𐡁",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a18af090a181",
+      "path": "diamonds/DiamondFacet58.sol"
+    },
+    {
+      "number": 59,
+      "gematria": 531,
+      "glyph": "𐡕𐡒𐡋𐡀",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a18bf090a180",
+      "path": "diamonds/DiamondFacet59.sol"
+    },
+    {
+      "number": 60,
+      "gematria": 540,
+      "glyph": "𐡕𐡒𐡌",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a192f090a18c",
+      "path": "diamonds/DiamondFacet60.sol"
+    },
+    {
+      "number": 61,
+      "gematria": 549,
+      "glyph": "𐡕𐡒𐡌𐡈",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a18cf090a188",
+      "path": "diamonds/DiamondFacet61.sol"
+    },
+    {
+      "number": 62,
+      "gematria": 558,
+      "glyph": "𐡕𐡒𐡍𐡇",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a18df090a187",
+      "path": "diamonds/DiamondFacet62.sol"
+    },
+    {
+      "number": 63,
+      "gematria": 567,
+      "glyph": "𐡕𐡒𐡎𐡆",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a18ef090a186",
+      "path": "diamonds/DiamondFacet63.sol"
+    },
+    {
+      "number": 64,
+      "gematria": 576,
+      "glyph": "𐡕𐡒𐡏𐡅",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a18ff090a185",
+      "path": "diamonds/DiamondFacet64.sol"
+    },
+    {
+      "number": 65,
+      "gematria": 585,
+      "glyph": "𐡕𐡒𐡐𐡄",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a190f090a184",
+      "path": "diamonds/DiamondFacet65.sol"
+    },
+    {
+      "number": 66,
+      "gematria": 594,
+      "glyph": "𐡕𐡒𐡑𐡃",
+      "hex": "0x00000000000000000000000000000000f090a195f090a192f090a191f090a183",
+      "path": "diamonds/DiamondFacet66.sol"
+    },
+    {
+      "number": 67,
+      "gematria": 603,
+      "glyph": "𐡕𐡓𐡂",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a193f090a182",
+      "path": "diamonds/DiamondFacet67.sol"
+    },
+    {
+      "number": 68,
+      "gematria": 612,
+      "glyph": "𐡕𐡓𐡉𐡁",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a189f090a181",
+      "path": "diamonds/DiamondFacet68.sol"
+    },
+    {
+      "number": 69,
+      "gematria": 621,
+      "glyph": "𐡕𐡓𐡊𐡀",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a18af090a180",
+      "path": "diamonds/DiamondFacet69.sol"
+    },
+    {
+      "number": 70,
+      "gematria": 630,
+      "glyph": "𐡕𐡓𐡋",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a193f090a18b",
+      "path": "diamonds/DiamondFacet70.sol"
+    },
+    {
+      "number": 71,
+      "gematria": 639,
+      "glyph": "𐡕𐡓𐡋𐡈",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a18bf090a188",
+      "path": "diamonds/DiamondFacet71.sol"
+    },
+    {
+      "number": 72,
+      "gematria": 648,
+      "glyph": "𐡕𐡓𐡌𐡇",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a18cf090a187",
+      "path": "diamonds/DiamondFacet72.sol"
+    },
+    {
+      "number": 73,
+      "gematria": 657,
+      "glyph": "𐡕𐡓𐡍𐡆",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a18df090a186",
+      "path": "diamonds/DiamondFacet73.sol"
+    },
+    {
+      "number": 74,
+      "gematria": 666,
+      "glyph": "𐡕𐡓𐡎𐡅",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a18ef090a185",
+      "path": "diamonds/DiamondFacet74.sol"
+    },
+    {
+      "number": 75,
+      "gematria": 675,
+      "glyph": "𐡕𐡓𐡏𐡄",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a18ff090a184",
+      "path": "diamonds/DiamondFacet75.sol"
+    },
+    {
+      "number": 76,
+      "gematria": 684,
+      "glyph": "𐡕𐡓𐡐𐡃",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a190f090a183",
+      "path": "diamonds/DiamondFacet76.sol"
+    },
+    {
+      "number": 77,
+      "gematria": 693,
+      "glyph": "𐡕𐡓𐡑𐡂",
+      "hex": "0x00000000000000000000000000000000f090a195f090a193f090a191f090a182",
+      "path": "diamonds/DiamondFacet77.sol"
+    },
+    {
+      "number": 78,
+      "gematria": 702,
+      "glyph": "𐡕𐡔𐡁",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a194f090a181",
+      "path": "diamonds/DiamondFacet78.sol"
+    },
+    {
+      "number": 79,
+      "gematria": 711,
+      "glyph": "𐡕𐡔𐡉𐡀",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a189f090a180",
+      "path": "diamonds/DiamondFacet79.sol"
+    },
+    {
+      "number": 80,
+      "gematria": 720,
+      "glyph": "𐡕𐡔𐡊",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a194f090a18a",
+      "path": "diamonds/DiamondFacet80.sol"
+    },
+    {
+      "number": 81,
+      "gematria": 729,
+      "glyph": "𐡕𐡔𐡊𐡈",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a18af090a188",
+      "path": "diamonds/DiamondFacet81.sol"
+    },
+    {
+      "number": 82,
+      "gematria": 738,
+      "glyph": "𐡕𐡔𐡋𐡇",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a18bf090a187",
+      "path": "diamonds/DiamondFacet82.sol"
+    },
+    {
+      "number": 83,
+      "gematria": 747,
+      "glyph": "𐡕𐡔𐡌𐡆",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a18cf090a186",
+      "path": "diamonds/DiamondFacet83.sol"
+    },
+    {
+      "number": 84,
+      "gematria": 756,
+      "glyph": "𐡕𐡔𐡍𐡅",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a18df090a185",
+      "path": "diamonds/DiamondFacet84.sol"
+    },
+    {
+      "number": 85,
+      "gematria": 765,
+      "glyph": "𐡕𐡔𐡎𐡄",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a18ef090a184",
+      "path": "diamonds/DiamondFacet85.sol"
+    },
+    {
+      "number": 86,
+      "gematria": 774,
+      "glyph": "𐡕𐡔𐡏𐡃",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a18ff090a183",
+      "path": "diamonds/DiamondFacet86.sol"
+    },
+    {
+      "number": 87,
+      "gematria": 783,
+      "glyph": "𐡕𐡔𐡐𐡂",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a190f090a182",
+      "path": "diamonds/DiamondFacet87.sol"
+    },
+    {
+      "number": 88,
+      "gematria": 792,
+      "glyph": "𐡕𐡔𐡑𐡁",
+      "hex": "0x00000000000000000000000000000000f090a195f090a194f090a191f090a181",
+      "path": "diamonds/DiamondFacet88.sol"
+    },
+    {
+      "number": 89,
+      "gematria": 801,
+      "glyph": "𐡕𐡕𐡀",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a195f090a180",
+      "path": "diamonds/DiamondFacet89.sol"
+    },
+    {
+      "number": 90,
+      "gematria": 810,
+      "glyph": "𐡕𐡕𐡉",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a195f090a189",
+      "path": "diamonds/DiamondFacet90.sol"
+    },
+    {
+      "number": 91,
+      "gematria": 819,
+      "glyph": "𐡕𐡕𐡉𐡈",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a189f090a188",
+      "path": "diamonds/DiamondFacet91.sol"
+    },
+    {
+      "number": 92,
+      "gematria": 828,
+      "glyph": "𐡕𐡕𐡊𐡇",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a18af090a187",
+      "path": "diamonds/DiamondFacet92.sol"
+    },
+    {
+      "number": 93,
+      "gematria": 837,
+      "glyph": "𐡕𐡕𐡋𐡆",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a18bf090a186",
+      "path": "diamonds/DiamondFacet93.sol"
+    },
+    {
+      "number": 94,
+      "gematria": 846,
+      "glyph": "𐡕𐡕𐡌𐡅",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a18cf090a185",
+      "path": "diamonds/DiamondFacet94.sol"
+    },
+    {
+      "number": 95,
+      "gematria": 855,
+      "glyph": "𐡕𐡕𐡍𐡄",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a18df090a184",
+      "path": "diamonds/DiamondFacet95.sol"
+    },
+    {
+      "number": 96,
+      "gematria": 864,
+      "glyph": "𐡕𐡕𐡎𐡃",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a18ef090a183",
+      "path": "diamonds/DiamondFacet96.sol"
+    },
+    {
+      "number": 97,
+      "gematria": 873,
+      "glyph": "𐡕𐡕𐡏𐡂",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a18ff090a182",
+      "path": "diamonds/DiamondFacet97.sol"
+    },
+    {
+      "number": 98,
+      "gematria": 882,
+      "glyph": "𐡕𐡕𐡐𐡁",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a190f090a181",
+      "path": "diamonds/DiamondFacet98.sol"
+    },
+    {
+      "number": 99,
+      "gematria": 891,
+      "glyph": "𐡕𐡕𐡑𐡀",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a191f090a180",
+      "path": "diamonds/DiamondFacet99.sol"
+    },
+    {
+      "number": 100,
+      "gematria": 900,
+      "glyph": "𐡕𐡕𐡒",
+      "hex": "0x0000000000000000000000000000000000000000f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet100.sol"
+    },
+    {
+      "number": 101,
+      "gematria": 909,
+      "glyph": "𐡕𐡕𐡒𐡈",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a192f090a188",
+      "path": "diamonds/DiamondFacet101.sol"
+    },
+    {
+      "number": 102,
+      "gematria": 918,
+      "glyph": "𐡕𐡕𐡒𐡉𐡇",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a189f090a187",
+      "path": "diamonds/DiamondFacet102.sol"
+    },
+    {
+      "number": 103,
+      "gematria": 927,
+      "glyph": "𐡕𐡕𐡒𐡊𐡆",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a18af090a186",
+      "path": "diamonds/DiamondFacet103.sol"
+    },
+    {
+      "number": 104,
+      "gematria": 936,
+      "glyph": "𐡕𐡕𐡒𐡋𐡅",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a18bf090a185",
+      "path": "diamonds/DiamondFacet104.sol"
+    },
+    {
+      "number": 105,
+      "gematria": 945,
+      "glyph": "𐡕𐡕𐡒𐡌𐡄",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a18cf090a184",
+      "path": "diamonds/DiamondFacet105.sol"
+    },
+    {
+      "number": 106,
+      "gematria": 954,
+      "glyph": "𐡕𐡕𐡒𐡍𐡃",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a18df090a183",
+      "path": "diamonds/DiamondFacet106.sol"
+    },
+    {
+      "number": 107,
+      "gematria": 963,
+      "glyph": "𐡕𐡕𐡒𐡎𐡂",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a18ef090a182",
+      "path": "diamonds/DiamondFacet107.sol"
+    },
+    {
+      "number": 108,
+      "gematria": 972,
+      "glyph": "𐡕𐡕𐡒𐡏𐡁",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a18ff090a181",
+      "path": "diamonds/DiamondFacet108.sol"
+    },
+    {
+      "number": 109,
+      "gematria": 981,
+      "glyph": "𐡕𐡕𐡒𐡐𐡀",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a190f090a180",
+      "path": "diamonds/DiamondFacet109.sol"
+    },
+    {
+      "number": 110,
+      "gematria": 990,
+      "glyph": "𐡕𐡕𐡒𐡑",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a192f090a191",
+      "path": "diamonds/DiamondFacet110.sol"
+    },
+    {
+      "number": 111,
+      "gematria": 999,
+      "glyph": "𐡕𐡕𐡒𐡑𐡈",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a192f090a191f090a188",
+      "path": "diamonds/DiamondFacet111.sol"
+    },
+    {
+      "number": 112,
+      "gematria": 1008,
+      "glyph": "𐡕𐡕𐡓𐡇",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a193f090a187",
+      "path": "diamonds/DiamondFacet112.sol"
+    },
+    {
+      "number": 113,
+      "gematria": 1017,
+      "glyph": "𐡕𐡕𐡓𐡉𐡆",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a189f090a186",
+      "path": "diamonds/DiamondFacet113.sol"
+    },
+    {
+      "number": 114,
+      "gematria": 1026,
+      "glyph": "𐡕𐡕𐡓𐡊𐡅",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a18af090a185",
+      "path": "diamonds/DiamondFacet114.sol"
+    },
+    {
+      "number": 115,
+      "gematria": 1035,
+      "glyph": "𐡕𐡕𐡓𐡋𐡄",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a18bf090a184",
+      "path": "diamonds/DiamondFacet115.sol"
+    },
+    {
+      "number": 116,
+      "gematria": 1044,
+      "glyph": "𐡕𐡕𐡓𐡌𐡃",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a18cf090a183",
+      "path": "diamonds/DiamondFacet116.sol"
+    },
+    {
+      "number": 117,
+      "gematria": 1053,
+      "glyph": "𐡕𐡕𐡓𐡍𐡂",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a18df090a182",
+      "path": "diamonds/DiamondFacet117.sol"
+    },
+    {
+      "number": 118,
+      "gematria": 1062,
+      "glyph": "𐡕𐡕𐡓𐡎𐡁",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a18ef090a181",
+      "path": "diamonds/DiamondFacet118.sol"
+    },
+    {
+      "number": 119,
+      "gematria": 1071,
+      "glyph": "𐡕𐡕𐡓𐡏𐡀",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a18ff090a180",
+      "path": "diamonds/DiamondFacet119.sol"
+    },
+    {
+      "number": 120,
+      "gematria": 1080,
+      "glyph": "𐡕𐡕𐡓𐡐",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a193f090a190",
+      "path": "diamonds/DiamondFacet120.sol"
+    },
+    {
+      "number": 121,
+      "gematria": 1089,
+      "glyph": "𐡕𐡕𐡓𐡐𐡈",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a190f090a188",
+      "path": "diamonds/DiamondFacet121.sol"
+    },
+    {
+      "number": 122,
+      "gematria": 1098,
+      "glyph": "𐡕𐡕𐡓𐡑𐡇",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a193f090a191f090a187",
+      "path": "diamonds/DiamondFacet122.sol"
+    },
+    {
+      "number": 123,
+      "gematria": 1107,
+      "glyph": "𐡕𐡕𐡔𐡆",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a194f090a186",
+      "path": "diamonds/DiamondFacet123.sol"
+    },
+    {
+      "number": 124,
+      "gematria": 1116,
+      "glyph": "𐡕𐡕𐡔𐡉𐡅",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a189f090a185",
+      "path": "diamonds/DiamondFacet124.sol"
+    },
+    {
+      "number": 125,
+      "gematria": 1125,
+      "glyph": "𐡕𐡕𐡔𐡊𐡄",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a18af090a184",
+      "path": "diamonds/DiamondFacet125.sol"
+    },
+    {
+      "number": 126,
+      "gematria": 1134,
+      "glyph": "𐡕𐡕𐡔𐡋𐡃",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a18bf090a183",
+      "path": "diamonds/DiamondFacet126.sol"
+    },
+    {
+      "number": 127,
+      "gematria": 1143,
+      "glyph": "𐡕𐡕𐡔𐡌𐡂",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a18cf090a182",
+      "path": "diamonds/DiamondFacet127.sol"
+    },
+    {
+      "number": 128,
+      "gematria": 1152,
+      "glyph": "𐡕𐡕𐡔𐡍𐡁",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a18df090a181",
+      "path": "diamonds/DiamondFacet128.sol"
+    },
+    {
+      "number": 129,
+      "gematria": 1161,
+      "glyph": "𐡕𐡕𐡔𐡎𐡀",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a18ef090a180",
+      "path": "diamonds/DiamondFacet129.sol"
+    },
+    {
+      "number": 130,
+      "gematria": 1170,
+      "glyph": "𐡕𐡕𐡔𐡏",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a194f090a18f",
+      "path": "diamonds/DiamondFacet130.sol"
+    },
+    {
+      "number": 131,
+      "gematria": 1179,
+      "glyph": "𐡕𐡕𐡔𐡏𐡈",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a18ff090a188",
+      "path": "diamonds/DiamondFacet131.sol"
+    },
+    {
+      "number": 132,
+      "gematria": 1188,
+      "glyph": "𐡕𐡕𐡔𐡐𐡇",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a190f090a187",
+      "path": "diamonds/DiamondFacet132.sol"
+    },
+    {
+      "number": 133,
+      "gematria": 1197,
+      "glyph": "𐡕𐡕𐡔𐡑𐡆",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a194f090a191f090a186",
+      "path": "diamonds/DiamondFacet133.sol"
+    },
+    {
+      "number": 134,
+      "gematria": 1206,
+      "glyph": "𐡕𐡕𐡕𐡅",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a195f090a185",
+      "path": "diamonds/DiamondFacet134.sol"
+    },
+    {
+      "number": 135,
+      "gematria": 1215,
+      "glyph": "𐡕𐡕𐡕𐡉𐡄",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a189f090a184",
+      "path": "diamonds/DiamondFacet135.sol"
+    },
+    {
+      "number": 136,
+      "gematria": 1224,
+      "glyph": "𐡕𐡕𐡕𐡊𐡃",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a18af090a183",
+      "path": "diamonds/DiamondFacet136.sol"
+    },
+    {
+      "number": 137,
+      "gematria": 1233,
+      "glyph": "𐡕𐡕𐡕𐡋𐡂",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a18bf090a182",
+      "path": "diamonds/DiamondFacet137.sol"
+    },
+    {
+      "number": 138,
+      "gematria": 1242,
+      "glyph": "𐡕𐡕𐡕𐡌𐡁",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a18cf090a181",
+      "path": "diamonds/DiamondFacet138.sol"
+    },
+    {
+      "number": 139,
+      "gematria": 1251,
+      "glyph": "𐡕𐡕𐡕𐡍𐡀",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a18df090a180",
+      "path": "diamonds/DiamondFacet139.sol"
+    },
+    {
+      "number": 140,
+      "gematria": 1260,
+      "glyph": "𐡕𐡕𐡕𐡎",
+      "hex": "0x00000000000000000000000000000000f090a195f090a195f090a195f090a18e",
+      "path": "diamonds/DiamondFacet140.sol"
+    },
+    {
+      "number": 141,
+      "gematria": 1269,
+      "glyph": "𐡕𐡕𐡕𐡎𐡈",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a18ef090a188",
+      "path": "diamonds/DiamondFacet141.sol"
+    },
+    {
+      "number": 142,
+      "gematria": 1278,
+      "glyph": "𐡕𐡕𐡕𐡏𐡇",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a18ff090a187",
+      "path": "diamonds/DiamondFacet142.sol"
+    },
+    {
+      "number": 143,
+      "gematria": 1287,
+      "glyph": "𐡕𐡕𐡕𐡐𐡆",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a190f090a186",
+      "path": "diamonds/DiamondFacet143.sol"
+    },
+    {
+      "number": 144,
+      "gematria": 1296,
+      "glyph": "𐡕𐡕𐡕𐡑𐡅",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a191f090a185",
+      "path": "diamonds/DiamondFacet144.sol"
+    },
+    {
+      "number": 145,
+      "gematria": 1305,
+      "glyph": "𐡕𐡕𐡕𐡒𐡄",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a192f090a184",
+      "path": "diamonds/DiamondFacet145.sol"
+    },
+    {
+      "number": 146,
+      "gematria": 1314,
+      "glyph": "𐡕𐡕𐡕𐡒𐡉𐡃",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a189f090a183",
+      "path": "diamonds/DiamondFacet146.sol"
+    },
+    {
+      "number": 147,
+      "gematria": 1323,
+      "glyph": "𐡕𐡕𐡕𐡒𐡊𐡂",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a18af090a182",
+      "path": "diamonds/DiamondFacet147.sol"
+    },
+    {
+      "number": 148,
+      "gematria": 1332,
+      "glyph": "𐡕𐡕𐡕𐡒𐡋𐡁",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a18bf090a181",
+      "path": "diamonds/DiamondFacet148.sol"
+    },
+    {
+      "number": 149,
+      "gematria": 1341,
+      "glyph": "𐡕𐡕𐡕𐡒𐡌𐡀",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a18cf090a180",
+      "path": "diamonds/DiamondFacet149.sol"
+    },
+    {
+      "number": 150,
+      "gematria": 1350,
+      "glyph": "𐡕𐡕𐡕𐡒𐡍",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a192f090a18d",
+      "path": "diamonds/DiamondFacet150.sol"
+    },
+    {
+      "number": 151,
+      "gematria": 1359,
+      "glyph": "𐡕𐡕𐡕𐡒𐡍𐡈",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a18df090a188",
+      "path": "diamonds/DiamondFacet151.sol"
+    },
+    {
+      "number": 152,
+      "gematria": 1368,
+      "glyph": "𐡕𐡕𐡕𐡒𐡎𐡇",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a18ef090a187",
+      "path": "diamonds/DiamondFacet152.sol"
+    },
+    {
+      "number": 153,
+      "gematria": 1377,
+      "glyph": "𐡕𐡕𐡕𐡒𐡏𐡆",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a18ff090a186",
+      "path": "diamonds/DiamondFacet153.sol"
+    },
+    {
+      "number": 154,
+      "gematria": 1386,
+      "glyph": "𐡕𐡕𐡕𐡒𐡐𐡅",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a190f090a185",
+      "path": "diamonds/DiamondFacet154.sol"
+    },
+    {
+      "number": 155,
+      "gematria": 1395,
+      "glyph": "𐡕𐡕𐡕𐡒𐡑𐡄",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a192f090a191f090a184",
+      "path": "diamonds/DiamondFacet155.sol"
+    },
+    {
+      "number": 156,
+      "gematria": 1404,
+      "glyph": "𐡕𐡕𐡕𐡓𐡃",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a193f090a183",
+      "path": "diamonds/DiamondFacet156.sol"
+    },
+    {
+      "number": 157,
+      "gematria": 1413,
+      "glyph": "𐡕𐡕𐡕𐡓𐡉𐡂",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a189f090a182",
+      "path": "diamonds/DiamondFacet157.sol"
+    },
+    {
+      "number": 158,
+      "gematria": 1422,
+      "glyph": "𐡕𐡕𐡕𐡓𐡊𐡁",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a18af090a181",
+      "path": "diamonds/DiamondFacet158.sol"
+    },
+    {
+      "number": 159,
+      "gematria": 1431,
+      "glyph": "𐡕𐡕𐡕𐡓𐡋𐡀",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a18bf090a180",
+      "path": "diamonds/DiamondFacet159.sol"
+    },
+    {
+      "number": 160,
+      "gematria": 1440,
+      "glyph": "𐡕𐡕𐡕𐡓𐡌",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a193f090a18c",
+      "path": "diamonds/DiamondFacet160.sol"
+    },
+    {
+      "number": 161,
+      "gematria": 1449,
+      "glyph": "𐡕𐡕𐡕𐡓𐡌𐡈",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a18cf090a188",
+      "path": "diamonds/DiamondFacet161.sol"
+    },
+    {
+      "number": 162,
+      "gematria": 1458,
+      "glyph": "𐡕𐡕𐡕𐡓𐡍𐡇",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a18df090a187",
+      "path": "diamonds/DiamondFacet162.sol"
+    },
+    {
+      "number": 163,
+      "gematria": 1467,
+      "glyph": "𐡕𐡕𐡕𐡓𐡎𐡆",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a18ef090a186",
+      "path": "diamonds/DiamondFacet163.sol"
+    },
+    {
+      "number": 164,
+      "gematria": 1476,
+      "glyph": "𐡕𐡕𐡕𐡓𐡏𐡅",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a18ff090a185",
+      "path": "diamonds/DiamondFacet164.sol"
+    },
+    {
+      "number": 165,
+      "gematria": 1485,
+      "glyph": "𐡕𐡕𐡕𐡓𐡐𐡄",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a190f090a184",
+      "path": "diamonds/DiamondFacet165.sol"
+    },
+    {
+      "number": 166,
+      "gematria": 1494,
+      "glyph": "𐡕𐡕𐡕𐡓𐡑𐡃",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a193f090a191f090a183",
+      "path": "diamonds/DiamondFacet166.sol"
+    },
+    {
+      "number": 167,
+      "gematria": 1503,
+      "glyph": "𐡕𐡕𐡕𐡔𐡂",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a194f090a182",
+      "path": "diamonds/DiamondFacet167.sol"
+    },
+    {
+      "number": 168,
+      "gematria": 1512,
+      "glyph": "𐡕𐡕𐡕𐡔𐡉𐡁",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a189f090a181",
+      "path": "diamonds/DiamondFacet168.sol"
+    },
+    {
+      "number": 169,
+      "gematria": 1521,
+      "glyph": "𐡕𐡕𐡕𐡔𐡊𐡀",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a18af090a180",
+      "path": "diamonds/DiamondFacet169.sol"
+    },
+    {
+      "number": 170,
+      "gematria": 1530,
+      "glyph": "𐡕𐡕𐡕𐡔𐡋",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a194f090a18b",
+      "path": "diamonds/DiamondFacet170.sol"
+    },
+    {
+      "number": 171,
+      "gematria": 1539,
+      "glyph": "𐡕𐡕𐡕𐡔𐡋𐡈",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a18bf090a188",
+      "path": "diamonds/DiamondFacet171.sol"
+    },
+    {
+      "number": 172,
+      "gematria": 1548,
+      "glyph": "𐡕𐡕𐡕𐡔𐡌𐡇",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a18cf090a187",
+      "path": "diamonds/DiamondFacet172.sol"
+    },
+    {
+      "number": 173,
+      "gematria": 1557,
+      "glyph": "𐡕𐡕𐡕𐡔𐡍𐡆",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a18df090a186",
+      "path": "diamonds/DiamondFacet173.sol"
+    },
+    {
+      "number": 174,
+      "gematria": 1566,
+      "glyph": "𐡕𐡕𐡕𐡔𐡎𐡅",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a18ef090a185",
+      "path": "diamonds/DiamondFacet174.sol"
+    },
+    {
+      "number": 175,
+      "gematria": 1575,
+      "glyph": "𐡕𐡕𐡕𐡔𐡏𐡄",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a18ff090a184",
+      "path": "diamonds/DiamondFacet175.sol"
+    },
+    {
+      "number": 176,
+      "gematria": 1584,
+      "glyph": "𐡕𐡕𐡕𐡔𐡐𐡃",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a190f090a183",
+      "path": "diamonds/DiamondFacet176.sol"
+    },
+    {
+      "number": 177,
+      "gematria": 1593,
+      "glyph": "𐡕𐡕𐡕𐡔𐡑𐡂",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a194f090a191f090a182",
+      "path": "diamonds/DiamondFacet177.sol"
+    },
+    {
+      "number": 178,
+      "gematria": 1602,
+      "glyph": "𐡕𐡕𐡕𐡕𐡁",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a195f090a181",
+      "path": "diamonds/DiamondFacet178.sol"
+    },
+    {
+      "number": 179,
+      "gematria": 1611,
+      "glyph": "𐡕𐡕𐡕𐡕𐡉𐡀",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a189f090a180",
+      "path": "diamonds/DiamondFacet179.sol"
+    },
+    {
+      "number": 180,
+      "gematria": 1620,
+      "glyph": "𐡕𐡕𐡕𐡕𐡊",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a195f090a18a",
+      "path": "diamonds/DiamondFacet180.sol"
+    },
+    {
+      "number": 181,
+      "gematria": 1629,
+      "glyph": "𐡕𐡕𐡕𐡕𐡊𐡈",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a18af090a188",
+      "path": "diamonds/DiamondFacet181.sol"
+    },
+    {
+      "number": 182,
+      "gematria": 1638,
+      "glyph": "𐡕𐡕𐡕𐡕𐡋𐡇",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a18bf090a187",
+      "path": "diamonds/DiamondFacet182.sol"
+    },
+    {
+      "number": 183,
+      "gematria": 1647,
+      "glyph": "𐡕𐡕𐡕𐡕𐡌𐡆",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a18cf090a186",
+      "path": "diamonds/DiamondFacet183.sol"
+    },
+    {
+      "number": 184,
+      "gematria": 1656,
+      "glyph": "𐡕𐡕𐡕𐡕𐡍𐡅",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a18df090a185",
+      "path": "diamonds/DiamondFacet184.sol"
+    },
+    {
+      "number": 185,
+      "gematria": 1665,
+      "glyph": "𐡕𐡕𐡕𐡕𐡎𐡄",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a18ef090a184",
+      "path": "diamonds/DiamondFacet185.sol"
+    },
+    {
+      "number": 186,
+      "gematria": 1674,
+      "glyph": "𐡕𐡕𐡕𐡕𐡏𐡃",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a18ff090a183",
+      "path": "diamonds/DiamondFacet186.sol"
+    },
+    {
+      "number": 187,
+      "gematria": 1683,
+      "glyph": "𐡕𐡕𐡕𐡕𐡐𐡂",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a190f090a182",
+      "path": "diamonds/DiamondFacet187.sol"
+    },
+    {
+      "number": 188,
+      "gematria": 1692,
+      "glyph": "𐡕𐡕𐡕𐡕𐡑𐡁",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a191f090a181",
+      "path": "diamonds/DiamondFacet188.sol"
+    },
+    {
+      "number": 189,
+      "gematria": 1701,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡀",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a192f090a180",
+      "path": "diamonds/DiamondFacet189.sol"
+    },
+    {
+      "number": 190,
+      "gematria": 1710,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡉",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a192f090a189",
+      "path": "diamonds/DiamondFacet190.sol"
+    },
+    {
+      "number": 191,
+      "gematria": 1719,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡉𐡈",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a189f090a188",
+      "path": "diamonds/DiamondFacet191.sol"
+    },
+    {
+      "number": 192,
+      "gematria": 1728,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡊𐡇",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a18af090a187",
+      "path": "diamonds/DiamondFacet192.sol"
+    },
+    {
+      "number": 193,
+      "gematria": 1737,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡋𐡆",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a18bf090a186",
+      "path": "diamonds/DiamondFacet193.sol"
+    },
+    {
+      "number": 194,
+      "gematria": 1746,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡌𐡅",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a18cf090a185",
+      "path": "diamonds/DiamondFacet194.sol"
+    },
+    {
+      "number": 195,
+      "gematria": 1755,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡍𐡄",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a18df090a184",
+      "path": "diamonds/DiamondFacet195.sol"
+    },
+    {
+      "number": 196,
+      "gematria": 1764,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡎𐡃",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a18ef090a183",
+      "path": "diamonds/DiamondFacet196.sol"
+    },
+    {
+      "number": 197,
+      "gematria": 1773,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡏𐡂",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a18ff090a182",
+      "path": "diamonds/DiamondFacet197.sol"
+    },
+    {
+      "number": 198,
+      "gematria": 1782,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡐𐡁",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a190f090a181",
+      "path": "diamonds/DiamondFacet198.sol"
+    },
+    {
+      "number": 199,
+      "gematria": 1791,
+      "glyph": "𐡕𐡕𐡕𐡕𐡒𐡑𐡀",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a192f090a191f090a180",
+      "path": "diamonds/DiamondFacet199.sol"
+    },
+    {
+      "number": 200,
+      "gematria": 1800,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓",
+      "hex": "0x000000000000000000000000f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet200.sol"
+    },
+    {
+      "number": 201,
+      "gematria": 1809,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡈",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a193f090a188",
+      "path": "diamonds/DiamondFacet201.sol"
+    },
+    {
+      "number": 202,
+      "gematria": 1818,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡉𐡇",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a189f090a187",
+      "path": "diamonds/DiamondFacet202.sol"
+    },
+    {
+      "number": 203,
+      "gematria": 1827,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡊𐡆",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a18af090a186",
+      "path": "diamonds/DiamondFacet203.sol"
+    },
+    {
+      "number": 204,
+      "gematria": 1836,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡋𐡅",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a18bf090a185",
+      "path": "diamonds/DiamondFacet204.sol"
+    },
+    {
+      "number": 205,
+      "gematria": 1845,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡌𐡄",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a18cf090a184",
+      "path": "diamonds/DiamondFacet205.sol"
+    },
+    {
+      "number": 206,
+      "gematria": 1854,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡍𐡃",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a18df090a183",
+      "path": "diamonds/DiamondFacet206.sol"
+    },
+    {
+      "number": 207,
+      "gematria": 1863,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡎𐡂",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a18ef090a182",
+      "path": "diamonds/DiamondFacet207.sol"
+    },
+    {
+      "number": 208,
+      "gematria": 1872,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡏𐡁",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a18ff090a181",
+      "path": "diamonds/DiamondFacet208.sol"
+    },
+    {
+      "number": 209,
+      "gematria": 1881,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡐𐡀",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a190f090a180",
+      "path": "diamonds/DiamondFacet209.sol"
+    },
+    {
+      "number": 210,
+      "gematria": 1890,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡑",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a193f090a191",
+      "path": "diamonds/DiamondFacet210.sol"
+    },
+    {
+      "number": 211,
+      "gematria": 1899,
+      "glyph": "𐡕𐡕𐡕𐡕𐡓𐡑𐡈",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a193f090a191f090a188",
+      "path": "diamonds/DiamondFacet211.sol"
+    },
+    {
+      "number": 212,
+      "gematria": 1908,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡇",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a194f090a187",
+      "path": "diamonds/DiamondFacet212.sol"
+    },
+    {
+      "number": 213,
+      "gematria": 1917,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡉𐡆",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a189f090a186",
+      "path": "diamonds/DiamondFacet213.sol"
+    },
+    {
+      "number": 214,
+      "gematria": 1926,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡊𐡅",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a18af090a185",
+      "path": "diamonds/DiamondFacet214.sol"
+    },
+    {
+      "number": 215,
+      "gematria": 1935,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡋𐡄",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a18bf090a184",
+      "path": "diamonds/DiamondFacet215.sol"
+    },
+    {
+      "number": 216,
+      "gematria": 1944,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡌𐡃",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a18cf090a183",
+      "path": "diamonds/DiamondFacet216.sol"
+    },
+    {
+      "number": 217,
+      "gematria": 1953,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡍𐡂",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a18df090a182",
+      "path": "diamonds/DiamondFacet217.sol"
+    },
+    {
+      "number": 218,
+      "gematria": 1962,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡎𐡁",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a18ef090a181",
+      "path": "diamonds/DiamondFacet218.sol"
+    },
+    {
+      "number": 219,
+      "gematria": 1971,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡏𐡀",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a18ff090a180",
+      "path": "diamonds/DiamondFacet219.sol"
+    },
+    {
+      "number": 220,
+      "gematria": 1980,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡐",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a194f090a190",
+      "path": "diamonds/DiamondFacet220.sol"
+    },
+    {
+      "number": 221,
+      "gematria": 1989,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡐𐡈",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a190f090a188",
+      "path": "diamonds/DiamondFacet221.sol"
+    },
+    {
+      "number": 222,
+      "gematria": 1998,
+      "glyph": "𐡕𐡕𐡕𐡕𐡔𐡑𐡇",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a194f090a191f090a187",
+      "path": "diamonds/DiamondFacet222.sol"
+    },
+    {
+      "number": 223,
+      "gematria": 2007,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡆",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a195f090a186",
+      "path": "diamonds/DiamondFacet223.sol"
+    },
+    {
+      "number": 224,
+      "gematria": 2016,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡉𐡅",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a189f090a185",
+      "path": "diamonds/DiamondFacet224.sol"
+    },
+    {
+      "number": 225,
+      "gematria": 2025,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡊𐡄",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a18af090a184",
+      "path": "diamonds/DiamondFacet225.sol"
+    },
+    {
+      "number": 226,
+      "gematria": 2034,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡋𐡃",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a18bf090a183",
+      "path": "diamonds/DiamondFacet226.sol"
+    },
+    {
+      "number": 227,
+      "gematria": 2043,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡌𐡂",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a18cf090a182",
+      "path": "diamonds/DiamondFacet227.sol"
+    },
+    {
+      "number": 228,
+      "gematria": 2052,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡍𐡁",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a18df090a181",
+      "path": "diamonds/DiamondFacet228.sol"
+    },
+    {
+      "number": 229,
+      "gematria": 2061,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡎𐡀",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a18ef090a180",
+      "path": "diamonds/DiamondFacet229.sol"
+    },
+    {
+      "number": 230,
+      "gematria": 2070,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡏",
+      "hex": "0x0000000000000000f090a195f090a195f090a195f090a195f090a195f090a18f",
+      "path": "diamonds/DiamondFacet230.sol"
+    },
+    {
+      "number": 231,
+      "gematria": 2079,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡏𐡈",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a18ff090a188",
+      "path": "diamonds/DiamondFacet231.sol"
+    },
+    {
+      "number": 232,
+      "gematria": 2088,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡐𐡇",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a190f090a187",
+      "path": "diamonds/DiamondFacet232.sol"
+    },
+    {
+      "number": 233,
+      "gematria": 2097,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡑𐡆",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a191f090a186",
+      "path": "diamonds/DiamondFacet233.sol"
+    },
+    {
+      "number": 234,
+      "gematria": 2106,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡅",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a192f090a185",
+      "path": "diamonds/DiamondFacet234.sol"
+    },
+    {
+      "number": 235,
+      "gematria": 2115,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡉𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a189f090a184",
+      "path": "diamonds/DiamondFacet235.sol"
+    },
+    {
+      "number": 236,
+      "gematria": 2124,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡊𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a18af090a183",
+      "path": "diamonds/DiamondFacet236.sol"
+    },
+    {
+      "number": 237,
+      "gematria": 2133,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡋𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a18bf090a182",
+      "path": "diamonds/DiamondFacet237.sol"
+    },
+    {
+      "number": 238,
+      "gematria": 2142,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡌𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a18cf090a181",
+      "path": "diamonds/DiamondFacet238.sol"
+    },
+    {
+      "number": 239,
+      "gematria": 2151,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡍𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a18df090a180",
+      "path": "diamonds/DiamondFacet239.sol"
+    },
+    {
+      "number": 240,
+      "gematria": 2160,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡎",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a192f090a18e",
+      "path": "diamonds/DiamondFacet240.sol"
+    },
+    {
+      "number": 241,
+      "gematria": 2169,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡎𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a18ef090a188",
+      "path": "diamonds/DiamondFacet241.sol"
+    },
+    {
+      "number": 242,
+      "gematria": 2178,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡏𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a18ff090a187",
+      "path": "diamonds/DiamondFacet242.sol"
+    },
+    {
+      "number": 243,
+      "gematria": 2187,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡐𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a190f090a186",
+      "path": "diamonds/DiamondFacet243.sol"
+    },
+    {
+      "number": 244,
+      "gematria": 2196,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡒𐡑𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a192f090a191f090a185",
+      "path": "diamonds/DiamondFacet244.sol"
+    },
+    {
+      "number": 245,
+      "gematria": 2205,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡄",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a193f090a184",
+      "path": "diamonds/DiamondFacet245.sol"
+    },
+    {
+      "number": 246,
+      "gematria": 2214,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡉𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a189f090a183",
+      "path": "diamonds/DiamondFacet246.sol"
+    },
+    {
+      "number": 247,
+      "gematria": 2223,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡊𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a18af090a182",
+      "path": "diamonds/DiamondFacet247.sol"
+    },
+    {
+      "number": 248,
+      "gematria": 2232,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡋𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a18bf090a181",
+      "path": "diamonds/DiamondFacet248.sol"
+    },
+    {
+      "number": 249,
+      "gematria": 2241,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡌𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a18cf090a180",
+      "path": "diamonds/DiamondFacet249.sol"
+    },
+    {
+      "number": 250,
+      "gematria": 2250,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡍",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a193f090a18d",
+      "path": "diamonds/DiamondFacet250.sol"
+    },
+    {
+      "number": 251,
+      "gematria": 2259,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡍𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a18df090a188",
+      "path": "diamonds/DiamondFacet251.sol"
+    },
+    {
+      "number": 252,
+      "gematria": 2268,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡎𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a18ef090a187",
+      "path": "diamonds/DiamondFacet252.sol"
+    },
+    {
+      "number": 253,
+      "gematria": 2277,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡏𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a18ff090a186",
+      "path": "diamonds/DiamondFacet253.sol"
+    },
+    {
+      "number": 254,
+      "gematria": 2286,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡐𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a190f090a185",
+      "path": "diamonds/DiamondFacet254.sol"
+    },
+    {
+      "number": 255,
+      "gematria": 2295,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡓𐡑𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a193f090a191f090a184",
+      "path": "diamonds/DiamondFacet255.sol"
+    },
+    {
+      "number": 256,
+      "gematria": 2304,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡃",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a194f090a183",
+      "path": "diamonds/DiamondFacet256.sol"
+    },
+    {
+      "number": 257,
+      "gematria": 2313,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡉𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a189f090a182",
+      "path": "diamonds/DiamondFacet257.sol"
+    },
+    {
+      "number": 258,
+      "gematria": 2322,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡊𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a18af090a181",
+      "path": "diamonds/DiamondFacet258.sol"
+    },
+    {
+      "number": 259,
+      "gematria": 2331,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡋𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a18bf090a180",
+      "path": "diamonds/DiamondFacet259.sol"
+    },
+    {
+      "number": 260,
+      "gematria": 2340,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡌",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a194f090a18c",
+      "path": "diamonds/DiamondFacet260.sol"
+    },
+    {
+      "number": 261,
+      "gematria": 2349,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡌𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a18cf090a188",
+      "path": "diamonds/DiamondFacet261.sol"
+    },
+    {
+      "number": 262,
+      "gematria": 2358,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡍𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a18df090a187",
+      "path": "diamonds/DiamondFacet262.sol"
+    },
+    {
+      "number": 263,
+      "gematria": 2367,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡎𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a18ef090a186",
+      "path": "diamonds/DiamondFacet263.sol"
+    },
+    {
+      "number": 264,
+      "gematria": 2376,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡏𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a18ff090a185",
+      "path": "diamonds/DiamondFacet264.sol"
+    },
+    {
+      "number": 265,
+      "gematria": 2385,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡐𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a190f090a184",
+      "path": "diamonds/DiamondFacet265.sol"
+    },
+    {
+      "number": 266,
+      "gematria": 2394,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡔𐡑𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a194f090a191f090a183",
+      "path": "diamonds/DiamondFacet266.sol"
+    },
+    {
+      "number": 267,
+      "gematria": 2403,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡂",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a195f090a182",
+      "path": "diamonds/DiamondFacet267.sol"
+    },
+    {
+      "number": 268,
+      "gematria": 2412,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡉𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a189f090a181",
+      "path": "diamonds/DiamondFacet268.sol"
+    },
+    {
+      "number": 269,
+      "gematria": 2421,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡊𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a18af090a180",
+      "path": "diamonds/DiamondFacet269.sol"
+    },
+    {
+      "number": 270,
+      "gematria": 2430,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡋",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a195f090a18b",
+      "path": "diamonds/DiamondFacet270.sol"
+    },
+    {
+      "number": 271,
+      "gematria": 2439,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡋𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a18bf090a188",
+      "path": "diamonds/DiamondFacet271.sol"
+    },
+    {
+      "number": 272,
+      "gematria": 2448,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡌𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a18cf090a187",
+      "path": "diamonds/DiamondFacet272.sol"
+    },
+    {
+      "number": 273,
+      "gematria": 2457,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡍𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a18df090a186",
+      "path": "diamonds/DiamondFacet273.sol"
+    },
+    {
+      "number": 274,
+      "gematria": 2466,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡎𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a18ef090a185",
+      "path": "diamonds/DiamondFacet274.sol"
+    },
+    {
+      "number": 275,
+      "gematria": 2475,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡏𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a18ff090a184",
+      "path": "diamonds/DiamondFacet275.sol"
+    },
+    {
+      "number": 276,
+      "gematria": 2484,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡐𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a190f090a183",
+      "path": "diamonds/DiamondFacet276.sol"
+    },
+    {
+      "number": 277,
+      "gematria": 2493,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡑𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a191f090a182",
+      "path": "diamonds/DiamondFacet277.sol"
+    },
+    {
+      "number": 278,
+      "gematria": 2502,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a181",
+      "path": "diamonds/DiamondFacet278.sol"
+    },
+    {
+      "number": 279,
+      "gematria": 2511,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡉𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a189",
+      "path": "diamonds/DiamondFacet279.sol"
+    },
+    {
+      "number": 280,
+      "gematria": 2520,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡊",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a18a",
+      "path": "diamonds/DiamondFacet280.sol"
+    },
+    {
+      "number": 281,
+      "gematria": 2529,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡊𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a18a",
+      "path": "diamonds/DiamondFacet281.sol"
+    },
+    {
+      "number": 282,
+      "gematria": 2538,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡋𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a18b",
+      "path": "diamonds/DiamondFacet282.sol"
+    },
+    {
+      "number": 283,
+      "gematria": 2547,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡌𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a18c",
+      "path": "diamonds/DiamondFacet283.sol"
+    },
+    {
+      "number": 284,
+      "gematria": 2556,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡍𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a18d",
+      "path": "diamonds/DiamondFacet284.sol"
+    },
+    {
+      "number": 285,
+      "gematria": 2565,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡎𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a18e",
+      "path": "diamonds/DiamondFacet285.sol"
+    },
+    {
+      "number": 286,
+      "gematria": 2574,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡏𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a18f",
+      "path": "diamonds/DiamondFacet286.sol"
+    },
+    {
+      "number": 287,
+      "gematria": 2583,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡐𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a190",
+      "path": "diamonds/DiamondFacet287.sol"
+    },
+    {
+      "number": 288,
+      "gematria": 2592,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡑𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a192f090a191",
+      "path": "diamonds/DiamondFacet288.sol"
+    },
+    {
+      "number": 289,
+      "gematria": 2601,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a180",
+      "path": "diamonds/DiamondFacet289.sol"
+    },
+    {
+      "number": 290,
+      "gematria": 2610,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡉",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a189",
+      "path": "diamonds/DiamondFacet290.sol"
+    },
+    {
+      "number": 291,
+      "gematria": 2619,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡉𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a189",
+      "path": "diamonds/DiamondFacet291.sol"
+    },
+    {
+      "number": 292,
+      "gematria": 2628,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡊𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a18a",
+      "path": "diamonds/DiamondFacet292.sol"
+    },
+    {
+      "number": 293,
+      "gematria": 2637,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡋𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a18b",
+      "path": "diamonds/DiamondFacet293.sol"
+    },
+    {
+      "number": 294,
+      "gematria": 2646,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡌𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a18c",
+      "path": "diamonds/DiamondFacet294.sol"
+    },
+    {
+      "number": 295,
+      "gematria": 2655,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡍𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a18d",
+      "path": "diamonds/DiamondFacet295.sol"
+    },
+    {
+      "number": 296,
+      "gematria": 2664,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡎𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a18e",
+      "path": "diamonds/DiamondFacet296.sol"
+    },
+    {
+      "number": 297,
+      "gematria": 2673,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡏𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a18f",
+      "path": "diamonds/DiamondFacet297.sol"
+    },
+    {
+      "number": 298,
+      "gematria": 2682,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡐𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a190",
+      "path": "diamonds/DiamondFacet298.sol"
+    },
+    {
+      "number": 299,
+      "gematria": 2691,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡑𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a193f090a191",
+      "path": "diamonds/DiamondFacet299.sol"
+    },
+    {
+      "number": 300,
+      "gematria": 2700,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔",
+      "hex": "0x00000000f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet300.sol"
+    },
+    {
+      "number": 301,
+      "gematria": 2709,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a188",
+      "path": "diamonds/DiamondFacet301.sol"
+    },
+    {
+      "number": 302,
+      "gematria": 2718,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡉𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a189",
+      "path": "diamonds/DiamondFacet302.sol"
+    },
+    {
+      "number": 303,
+      "gematria": 2727,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡊𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a18a",
+      "path": "diamonds/DiamondFacet303.sol"
+    },
+    {
+      "number": 304,
+      "gematria": 2736,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡋𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a18b",
+      "path": "diamonds/DiamondFacet304.sol"
+    },
+    {
+      "number": 305,
+      "gematria": 2745,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡌𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a18c",
+      "path": "diamonds/DiamondFacet305.sol"
+    },
+    {
+      "number": 306,
+      "gematria": 2754,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡍𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a18d",
+      "path": "diamonds/DiamondFacet306.sol"
+    },
+    {
+      "number": 307,
+      "gematria": 2763,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡎𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a18e",
+      "path": "diamonds/DiamondFacet307.sol"
+    },
+    {
+      "number": 308,
+      "gematria": 2772,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡏𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a18f",
+      "path": "diamonds/DiamondFacet308.sol"
+    },
+    {
+      "number": 309,
+      "gematria": 2781,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡐𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a190",
+      "path": "diamonds/DiamondFacet309.sol"
+    },
+    {
+      "number": 310,
+      "gematria": 2790,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡑",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a191",
+      "path": "diamonds/DiamondFacet310.sol"
+    },
+    {
+      "number": 311,
+      "gematria": 2799,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡑𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a194f090a191",
+      "path": "diamonds/DiamondFacet311.sol"
+    },
+    {
+      "number": 312,
+      "gematria": 2808,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a187",
+      "path": "diamonds/DiamondFacet312.sol"
+    },
+    {
+      "number": 313,
+      "gematria": 2817,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡉𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a189",
+      "path": "diamonds/DiamondFacet313.sol"
+    },
+    {
+      "number": 314,
+      "gematria": 2826,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡊𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a18a",
+      "path": "diamonds/DiamondFacet314.sol"
+    },
+    {
+      "number": 315,
+      "gematria": 2835,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡋𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a18b",
+      "path": "diamonds/DiamondFacet315.sol"
+    },
+    {
+      "number": 316,
+      "gematria": 2844,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡌𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a18c",
+      "path": "diamonds/DiamondFacet316.sol"
+    },
+    {
+      "number": 317,
+      "gematria": 2853,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡍𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a18d",
+      "path": "diamonds/DiamondFacet317.sol"
+    },
+    {
+      "number": 318,
+      "gematria": 2862,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡎𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a18e",
+      "path": "diamonds/DiamondFacet318.sol"
+    },
+    {
+      "number": 319,
+      "gematria": 2871,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡏𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a18f",
+      "path": "diamonds/DiamondFacet319.sol"
+    },
+    {
+      "number": 320,
+      "gematria": 2880,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡐",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a190",
+      "path": "diamonds/DiamondFacet320.sol"
+    },
+    {
+      "number": 321,
+      "gematria": 2889,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡐𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a190",
+      "path": "diamonds/DiamondFacet321.sol"
+    },
+    {
+      "number": 322,
+      "gematria": 2898,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡑𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a191",
+      "path": "diamonds/DiamondFacet322.sol"
+    },
+    {
+      "number": 323,
+      "gematria": 2907,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet323.sol"
+    },
+    {
+      "number": 324,
+      "gematria": 2916,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡉𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet324.sol"
+    },
+    {
+      "number": 325,
+      "gematria": 2925,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡊𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet325.sol"
+    },
+    {
+      "number": 326,
+      "gematria": 2934,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡋𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet326.sol"
+    },
+    {
+      "number": 327,
+      "gematria": 2943,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡌𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet327.sol"
+    },
+    {
+      "number": 328,
+      "gematria": 2952,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡍𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet328.sol"
+    },
+    {
+      "number": 329,
+      "gematria": 2961,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡎𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet329.sol"
+    },
+    {
+      "number": 330,
+      "gematria": 2970,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡏",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet330.sol"
+    },
+    {
+      "number": 331,
+      "gematria": 2979,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡏𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet331.sol"
+    },
+    {
+      "number": 332,
+      "gematria": 2988,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡐𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet332.sol"
+    },
+    {
+      "number": 333,
+      "gematria": 2997,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡑𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a192",
+      "path": "diamonds/DiamondFacet333.sol"
+    },
+    {
+      "number": 334,
+      "gematria": 3006,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet334.sol"
+    },
+    {
+      "number": 335,
+      "gematria": 3015,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡉𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet335.sol"
+    },
+    {
+      "number": 336,
+      "gematria": 3024,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡊𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet336.sol"
+    },
+    {
+      "number": 337,
+      "gematria": 3033,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡋𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet337.sol"
+    },
+    {
+      "number": 338,
+      "gematria": 3042,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡌𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet338.sol"
+    },
+    {
+      "number": 339,
+      "gematria": 3051,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡍𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet339.sol"
+    },
+    {
+      "number": 340,
+      "gematria": 3060,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡎",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet340.sol"
+    },
+    {
+      "number": 341,
+      "gematria": 3069,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡎𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet341.sol"
+    },
+    {
+      "number": 342,
+      "gematria": 3078,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡏𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet342.sol"
+    },
+    {
+      "number": 343,
+      "gematria": 3087,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡐𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet343.sol"
+    },
+    {
+      "number": 344,
+      "gematria": 3096,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡑𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a193",
+      "path": "diamonds/DiamondFacet344.sol"
+    },
+    {
+      "number": 345,
+      "gematria": 3105,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet345.sol"
+    },
+    {
+      "number": 346,
+      "gematria": 3114,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡉𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet346.sol"
+    },
+    {
+      "number": 347,
+      "gematria": 3123,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡊𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet347.sol"
+    },
+    {
+      "number": 348,
+      "gematria": 3132,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡋𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet348.sol"
+    },
+    {
+      "number": 349,
+      "gematria": 3141,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡌𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet349.sol"
+    },
+    {
+      "number": 350,
+      "gematria": 3150,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡍",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet350.sol"
+    },
+    {
+      "number": 351,
+      "gematria": 3159,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡍𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet351.sol"
+    },
+    {
+      "number": 352,
+      "gematria": 3168,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡎𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet352.sol"
+    },
+    {
+      "number": 353,
+      "gematria": 3177,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡏𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet353.sol"
+    },
+    {
+      "number": 354,
+      "gematria": 3186,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡐𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet354.sol"
+    },
+    {
+      "number": 355,
+      "gematria": 3195,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡑𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a194",
+      "path": "diamonds/DiamondFacet355.sol"
+    },
+    {
+      "number": 356,
+      "gematria": 3204,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet356.sol"
+    },
+    {
+      "number": 357,
+      "gematria": 3213,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡉𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet357.sol"
+    },
+    {
+      "number": 358,
+      "gematria": 3222,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡊𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet358.sol"
+    },
+    {
+      "number": 359,
+      "gematria": 3231,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡋𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet359.sol"
+    },
+    {
+      "number": 360,
+      "gematria": 3240,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡌",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet360.sol"
+    },
+    {
+      "number": 361,
+      "gematria": 3249,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡌𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet361.sol"
+    },
+    {
+      "number": 362,
+      "gematria": 3258,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡍𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet362.sol"
+    },
+    {
+      "number": 363,
+      "gematria": 3267,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡎𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet363.sol"
+    },
+    {
+      "number": 364,
+      "gematria": 3276,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡏𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet364.sol"
+    },
+    {
+      "number": 365,
+      "gematria": 3285,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡐𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet365.sol"
+    },
+    {
+      "number": 366,
+      "gematria": 3294,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡑𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet366.sol"
+    },
+    {
+      "number": 367,
+      "gematria": 3303,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet367.sol"
+    },
+    {
+      "number": 368,
+      "gematria": 3312,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡉𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet368.sol"
+    },
+    {
+      "number": 369,
+      "gematria": 3321,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡊𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet369.sol"
+    },
+    {
+      "number": 370,
+      "gematria": 3330,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡋",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet370.sol"
+    },
+    {
+      "number": 371,
+      "gematria": 3339,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡋𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet371.sol"
+    },
+    {
+      "number": 372,
+      "gematria": 3348,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡌𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet372.sol"
+    },
+    {
+      "number": 373,
+      "gematria": 3357,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡍𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet373.sol"
+    },
+    {
+      "number": 374,
+      "gematria": 3366,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡎𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet374.sol"
+    },
+    {
+      "number": 375,
+      "gematria": 3375,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡏𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet375.sol"
+    },
+    {
+      "number": 376,
+      "gematria": 3384,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡐𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet376.sol"
+    },
+    {
+      "number": 377,
+      "gematria": 3393,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡒𐡑𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet377.sol"
+    },
+    {
+      "number": 378,
+      "gematria": 3402,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet378.sol"
+    },
+    {
+      "number": 379,
+      "gematria": 3411,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡉𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet379.sol"
+    },
+    {
+      "number": 380,
+      "gematria": 3420,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡊",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet380.sol"
+    },
+    {
+      "number": 381,
+      "gematria": 3429,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡊𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet381.sol"
+    },
+    {
+      "number": 382,
+      "gematria": 3438,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡋𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet382.sol"
+    },
+    {
+      "number": 383,
+      "gematria": 3447,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡌𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet383.sol"
+    },
+    {
+      "number": 384,
+      "gematria": 3456,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡍𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet384.sol"
+    },
+    {
+      "number": 385,
+      "gematria": 3465,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡎𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet385.sol"
+    },
+    {
+      "number": 386,
+      "gematria": 3474,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡏𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet386.sol"
+    },
+    {
+      "number": 387,
+      "gematria": 3483,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡐𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet387.sol"
+    },
+    {
+      "number": 388,
+      "gematria": 3492,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡓𐡑𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet388.sol"
+    },
+    {
+      "number": 389,
+      "gematria": 3501,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet389.sol"
+    },
+    {
+      "number": 390,
+      "gematria": 3510,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡉",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet390.sol"
+    },
+    {
+      "number": 391,
+      "gematria": 3519,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡉𐡈",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet391.sol"
+    },
+    {
+      "number": 392,
+      "gematria": 3528,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡊𐡇",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet392.sol"
+    },
+    {
+      "number": 393,
+      "gematria": 3537,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡋𐡆",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet393.sol"
+    },
+    {
+      "number": 394,
+      "gematria": 3546,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡌𐡅",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet394.sol"
+    },
+    {
+      "number": 395,
+      "gematria": 3555,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡍𐡄",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet395.sol"
+    },
+    {
+      "number": 396,
+      "gematria": 3564,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡎𐡃",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet396.sol"
+    },
+    {
+      "number": 397,
+      "gematria": 3573,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡏𐡂",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet397.sol"
+    },
+    {
+      "number": 398,
+      "gematria": 3582,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡐𐡁",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet398.sol"
+    },
+    {
+      "number": 399,
+      "gematria": 3591,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡔𐡑𐡀",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet399.sol"
+    },
+    {
+      "number": 400,
+      "gematria": 3600,
+      "glyph": "𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕𐡕",
+      "hex": "0xf090a195f090a195f090a195f090a195f090a195f090a195f090a195f090a195",
+      "path": "diamonds/DiamondFacet400.sol"
+    }
+  ],
+  "generated_at": "2026-01-29T03:02:17.201Z",
+  "declaration": "There is nothing new under the sun. That which was will be, and what will be was when the end finds its beginning."
+}

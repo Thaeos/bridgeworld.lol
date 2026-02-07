@@ -1,0 +1,949 @@
+{
+  "timestamp": "2026-02-05T03:33:29.507Z",
+  "network": "Arbitrum One (42161)",
+  "rpc": "https://arb1.arbitrum.io/rpc",
+  "hiveAddress": "0x67A977eaD94C3b955ECbf27886CE9f62464423B2",
+  "defaultDiamond": "0xf7993A8df974AD022647E63402d6315137c58ABf",
+  "totals": {
+    "total": 79,
+    "live": 78,
+    "errors": 0,
+    "noCode": 1,
+    "successRate": "98.73%"
+  },
+  "byCategory": {
+    "Tokens": {
+      "total": 23,
+      "live": 23,
+      "protocols": [
+        "ERC20"
+      ]
+    },
+    "DeFi": {
+      "total": 15,
+      "live": 15,
+      "protocols": [
+        "Uniswap",
+        "Aave",
+        "GMX",
+        "Curve",
+        "Pendle"
+      ]
+    },
+    "Oracles": {
+      "total": 8,
+      "live": 7,
+      "protocols": [
+        "Chainlink",
+        "Pyth"
+      ]
+    },
+    "Bridges": {
+      "total": 7,
+      "live": 7,
+      "protocols": [
+        "Arbitrum",
+        "LayerZero",
+        "Stargate",
+        "Across"
+      ]
+    },
+    "NFT/Gaming": {
+      "total": 7,
+      "live": 7,
+      "protocols": [
+        "Treasure",
+        "Seaport"
+      ]
+    },
+    "Infrastructure": {
+      "total": 15,
+      "live": 15,
+      "protocols": [
+        "Safe",
+        "AA (4337)",
+        "Precompiles",
+        "Multicall"
+      ]
+    },
+    "Governance": {
+      "total": 3,
+      "live": 3,
+      "protocols": [
+        "Arbitrum DAO"
+      ]
+    },
+    "Diamond": {
+      "total": 1,
+      "live": 1,
+      "protocols": [
+        "Default"
+      ]
+    }
+  },
+  "contracts": {
+    "tokens": {
+      "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+      "WETH": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC_E": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+      "LINK": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+      "UNI": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+      "GMX": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+      "GLP": "0x4277f8F2c384827B5273592FF7CeBd9f2C1ac258",
+      "MAGIC": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "PENDLE": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+      "CRV": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+      "LDO": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
+      "GRT": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+      "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "wstETH": "0x0fBcbaEA96Ce0cF7Ee00A8c19c3ab6f5Dc8E1921",
+      "ezETH": "0x2416092f143378750bb29b79ed961ab195cceea5",
+      "weETH": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+      "GHO": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+      "FRAX": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "crvUSD": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5"
+    },
+    "defi": {
+      "uniswap": {
+        "factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+        "swapRouter": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "swapRouter02": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "quoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e",
+        "positionsNFT": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88"
+      },
+      "aave": {
+        "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+        "poolDataProvider": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
+        "oracle": "0xb56c2F0B653B2e0b10C9b928C8580Ac5Df02C7C7"
+      },
+      "gmx": {
+        "vault": "0x489ee077994B6658eAfA855C308275EAd8097C4A",
+        "router": "0xaBBc5F99639c9B6bCb58544ddf04EFA6802F4064",
+        "rewardRouter": "0xA906F338CB21815cBc4Bc87ace9e68c87eF8d8F1"
+      },
+      "curve": {
+        "addressProvider": "0x0000000022D53366457F9d5E68Ec105046FC4383",
+        "router": "0xF0d4c12A5768D806021F80a262B4d39d26C58b8D"
+      },
+      "pendle": {
+        "router": "0x00000000005BBB0EF59571E58418F9a4357b68A0",
+        "marketFactory": "0x2FCb47B58350cD377f94d3821e7373Df60bD9Ced"
+      }
+    },
+    "oracles": {
+      "chainlink": {
+        "ETH_USD": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
+        "BTC_USD": "0x6ce185860a4963106506C203335A5812f87eCa5b",
+        "LINK_USD": "0x86E53CF1B870786351Da77A57575e79CB55812CB",
+        "ARB_USD": "0xb2A824043730FE05F3DA2efaFa1CBbe83fa548D6",
+        "USDC_USD": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+        "automationRegistry": "0x75c0530885F385721fddA23C539AF3701d6183D4",
+        "vrfCoordinator": "0x41034678D6C633D8a95c75e1138A360a28bA15d1"
+      },
+      "pyth": {
+        "oracle": "0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"
+      }
+    },
+    "bridges": {
+      "arbitrum": {
+        "l2GatewayRouter": "0x5288c571Fd7aD117beA99bF60FE0846C4E84F933",
+        "l2ERC20Gateway": "0x09e9222E96E7B4AE2a407B98d48e330053351EEe",
+        "arbSys": "0x0000000000000000000000000000000000000064"
+      },
+      "layerZero": {
+        "endpoint": "0x3c2269811836af69497E5F486A85D7316753cf62"
+      },
+      "stargate": {
+        "router": "0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614",
+        "factory": "0x55bDb4164D28FBaF0898e0eF14a589ac09Ac9970"
+      },
+      "across": {
+        "spokePool": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A"
+      }
+    },
+    "nftGaming": {
+      "treasure": {
+        "magic": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+        "legions": "0xfe8c1ac365ba6780aec5a985d989b327c27670a1",
+        "marketplace": "0x2E3b85F85628301a0Bce300Dee3A6B04195A15Ee",
+        "atlasMine": "0xA0A89db1C899c49F98E6326b764BAFcf167fC2CE"
+      },
+      "seaport": {
+        "seaport15": "0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC",
+        "seaport16": "0x0000000000000068F116a894984e2DB1123eB395",
+        "conduitController": "0x00000000F9490004C11Cef243f5400493c00Ad63"
+      }
+    },
+    "infrastructure": {
+      "safe": {
+        "proxyFactory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+        "singleton": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+        "multiSend": "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
+        "fallbackHandler": "0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4"
+      },
+      "accountAbstraction": {
+        "entryPoint": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789",
+        "simpleAccountFactory": "0x9406Cc6185a346906296840746125a0E44976454"
+      },
+      "precompiles": {
+        "arbSys": "0x0000000000000000000000000000000000000064",
+        "arbInfo": "0x0000000000000000000000000000000000000065",
+        "arbAddressTable": "0x0000000000000000000000000000000000000066",
+        "arbGasInfo": "0x000000000000000000000000000000000000006C",
+        "arbRetryableTx": "0x000000000000000000000000000000000000006E",
+        "arbOwner": "0x0000000000000000000000000000000000000070",
+        "arbWasm": "0x0000000000000000000000000000000000000071",
+        "nodeInterface": "0x00000000000000000000000000000000000000C8"
+      },
+      "multicall": "0x842eC2c7D803033Edf55E478F461FC547Bc54EB2"
+    },
+    "governance": {
+      "arbitrumDAO": {
+        "governor": "0x789fC99093B09aD01C34DC7251D0C89ce743e5a4",
+        "timelock": "0x34d45e99f7D8c45ed05B5cA72D54bbD1fb3F98f0",
+        "treasury": "0xF3FC178157fb3c87548bAA86F9d24BA38E649B58"
+      }
+    }
+  },
+  "results": [
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "ARB",
+      "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+      "status": "LIVE",
+      "codeSize": 2593,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "WETH",
+      "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "status": "LIVE",
+      "codeSize": 2092,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "USDC",
+      "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "status": "LIVE",
+      "codeSize": 1852,
+      "data": {
+        "decimals": 6,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "USDC_E",
+      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "status": "LIVE",
+      "codeSize": 2092,
+      "data": {
+        "decimals": 6,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "USDT",
+      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "status": "LIVE",
+      "codeSize": 2141,
+      "data": {
+        "decimals": 6,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "DAI",
+      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "status": "LIVE",
+      "codeSize": 4926,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "WBTC",
+      "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 8,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "LINK",
+      "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "UNI",
+      "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "GMX",
+      "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+      "status": "LIVE",
+      "codeSize": 8613,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "GLP",
+      "address": "0x4277f8F2c384827B5273592FF7CeBd9f2C1ac258",
+      "status": "LIVE",
+      "codeSize": 8613,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "MAGIC",
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0.068271"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "PENDLE",
+      "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "CRV",
+      "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "LDO",
+      "address": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "GRT",
+      "address": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+      "status": "LIVE",
+      "codeSize": 2284,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "ZRO",
+      "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "status": "LIVE",
+      "codeSize": 14810,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "wstETH",
+      "address": "0x0fBcbaEA96Ce0cF7Ee00A8c19c3ab6f5Dc8E1921",
+      "status": "LIVE",
+      "codeSize": 4050,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "ezETH",
+      "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+      "status": "LIVE",
+      "codeSize": 2188,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "weETH",
+      "address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "GHO",
+      "address": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+      "status": "LIVE",
+      "codeSize": 2040,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "FRAX",
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "status": "LIVE",
+      "codeSize": 15993,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "Tokens",
+      "protocol": "ERC20",
+      "contract": "crvUSD",
+      "address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+      "status": "LIVE",
+      "codeSize": 760,
+      "data": {
+        "decimals": 18,
+        "hiveBalance": "0"
+      }
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Uniswap",
+      "contract": "factory",
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "status": "LIVE",
+      "codeSize": 24535
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Uniswap",
+      "contract": "swapRouter",
+      "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "status": "LIVE",
+      "codeSize": 12070
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Uniswap",
+      "contract": "swapRouter02",
+      "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+      "status": "LIVE",
+      "codeSize": 24497
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Uniswap",
+      "contract": "quoterV2",
+      "address": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e",
+      "status": "LIVE",
+      "codeSize": 8273
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Uniswap",
+      "contract": "positionsNFT",
+      "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+      "status": "LIVE",
+      "codeSize": 24384
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Aave",
+      "contract": "pool",
+      "address": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+      "status": "LIVE",
+      "codeSize": 2400
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Aave",
+      "contract": "poolDataProvider",
+      "address": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
+      "status": "LIVE",
+      "codeSize": 11929
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Aave",
+      "contract": "oracle",
+      "address": "0xb56c2F0B653B2e0b10C9b928C8580Ac5Df02C7C7",
+      "status": "LIVE",
+      "codeSize": 3405
+    },
+    {
+      "category": "DeFi",
+      "protocol": "GMX",
+      "contract": "vault",
+      "address": "0x489ee077994B6658eAfA855C308275EAd8097C4A",
+      "status": "LIVE",
+      "codeSize": 23438
+    },
+    {
+      "category": "DeFi",
+      "protocol": "GMX",
+      "contract": "router",
+      "address": "0xaBBc5F99639c9B6bCb58544ddf04EFA6802F4064",
+      "status": "LIVE",
+      "codeSize": 9179
+    },
+    {
+      "category": "DeFi",
+      "protocol": "GMX",
+      "contract": "rewardRouter",
+      "address": "0xA906F338CB21815cBc4Bc87ace9e68c87eF8d8F1",
+      "status": "LIVE",
+      "codeSize": 21412
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Curve",
+      "contract": "addressProvider",
+      "address": "0x0000000022D53366457F9d5E68Ec105046FC4383",
+      "status": "LIVE",
+      "codeSize": 1967
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Curve",
+      "contract": "router",
+      "address": "0xF0d4c12A5768D806021F80a262B4d39d26C58b8D",
+      "status": "LIVE",
+      "codeSize": 11272
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Pendle",
+      "contract": "router",
+      "address": "0x00000000005BBB0EF59571E58418F9a4357b68A0",
+      "status": "LIVE",
+      "codeSize": 6737
+    },
+    {
+      "category": "DeFi",
+      "protocol": "Pendle",
+      "contract": "marketFactory",
+      "address": "0x2FCb47B58350cD377f94d3821e7373Df60bD9Ced",
+      "status": "LIVE",
+      "codeSize": 6358
+    },
+    {
+      "category": "Oracles",
+      "protocol": "Chainlink",
+      "contract": "ETH_USD",
+      "address": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
+      "status": "LIVE",
+      "codeSize": 9571,
+      "data": {
+        "price": "2108.15"
+      }
+    },
+    {
+      "category": "Oracles",
+      "protocol": "Chainlink",
+      "contract": "BTC_USD",
+      "address": "0x6ce185860a4963106506C203335A5812f87eCa5b",
+      "status": "NO_CODE"
+    },
+    {
+      "category": "Oracles",
+      "protocol": "Chainlink",
+      "contract": "LINK_USD",
+      "address": "0x86E53CF1B870786351Da77A57575e79CB55812CB",
+      "status": "LIVE",
+      "codeSize": 9571,
+      "data": {
+        "price": "9.14"
+      }
+    },
+    {
+      "category": "Oracles",
+      "protocol": "Chainlink",
+      "contract": "ARB_USD",
+      "address": "0xb2A824043730FE05F3DA2efaFa1CBbe83fa548D6",
+      "status": "LIVE",
+      "codeSize": 9571,
+      "data": {
+        "price": "0.13"
+      }
+    },
+    {
+      "category": "Oracles",
+      "protocol": "Chainlink",
+      "contract": "USDC_USD",
+      "address": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+      "status": "LIVE",
+      "codeSize": 9571,
+      "data": {
+        "price": "1.00"
+      }
+    },
+    {
+      "category": "Oracles",
+      "protocol": "Chainlink",
+      "contract": "automationRegistry",
+      "address": "0x75c0530885F385721fddA23C539AF3701d6183D4",
+      "status": "LIVE",
+      "codeSize": 13153
+    },
+    {
+      "category": "Oracles",
+      "protocol": "Chainlink",
+      "contract": "vrfCoordinator",
+      "address": "0x41034678D6C633D8a95c75e1138A360a28bA15d1",
+      "status": "LIVE",
+      "codeSize": 22351
+    },
+    {
+      "category": "Oracles",
+      "protocol": "Pyth",
+      "contract": "oracle",
+      "address": "0xff1a0f4744e8582DF1aE09D5611b887B6a12925C",
+      "status": "LIVE",
+      "codeSize": 680
+    },
+    {
+      "category": "Bridges",
+      "protocol": "Arbitrum",
+      "contract": "l2GatewayRouter",
+      "address": "0x5288c571Fd7aD117beA99bF60FE0846C4E84F933",
+      "status": "LIVE",
+      "codeSize": 2092
+    },
+    {
+      "category": "Bridges",
+      "protocol": "Arbitrum",
+      "contract": "l2ERC20Gateway",
+      "address": "0x09e9222E96E7B4AE2a407B98d48e330053351EEe",
+      "status": "LIVE",
+      "codeSize": 2092
+    },
+    {
+      "category": "Bridges",
+      "protocol": "Arbitrum",
+      "contract": "arbSys",
+      "address": "0x0000000000000000000000000000000000000064",
+      "status": "LIVE",
+      "codeSize": 1
+    },
+    {
+      "category": "Bridges",
+      "protocol": "LayerZero",
+      "contract": "endpoint",
+      "address": "0x3c2269811836af69497E5F486A85D7316753cf62",
+      "status": "LIVE",
+      "codeSize": 15282
+    },
+    {
+      "category": "Bridges",
+      "protocol": "Stargate",
+      "contract": "router",
+      "address": "0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614",
+      "status": "LIVE",
+      "codeSize": 20911
+    },
+    {
+      "category": "Bridges",
+      "protocol": "Stargate",
+      "contract": "factory",
+      "address": "0x55bDb4164D28FBaF0898e0eF14a589ac09Ac9970",
+      "status": "LIVE",
+      "codeSize": 21613
+    },
+    {
+      "category": "Bridges",
+      "protocol": "Across",
+      "contract": "spokePool",
+      "address": "0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A",
+      "status": "LIVE",
+      "codeSize": 680
+    },
+    {
+      "category": "NFT/Gaming",
+      "protocol": "Treasure",
+      "contract": "magic",
+      "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+      "status": "LIVE",
+      "codeSize": 760
+    },
+    {
+      "category": "NFT/Gaming",
+      "protocol": "Treasure",
+      "contract": "legions",
+      "address": "0xfe8c1ac365ba6780aec5a985d989b327c27670a1",
+      "status": "LIVE",
+      "codeSize": 2141
+    },
+    {
+      "category": "NFT/Gaming",
+      "protocol": "Treasure",
+      "contract": "marketplace",
+      "address": "0x2E3b85F85628301a0Bce300Dee3A6B04195A15Ee",
+      "status": "LIVE",
+      "codeSize": 9719
+    },
+    {
+      "category": "NFT/Gaming",
+      "protocol": "Treasure",
+      "contract": "atlasMine",
+      "address": "0xA0A89db1C899c49F98E6326b764BAFcf167fC2CE",
+      "status": "LIVE",
+      "codeSize": 2141
+    },
+    {
+      "category": "NFT/Gaming",
+      "protocol": "Seaport",
+      "contract": "seaport15",
+      "address": "0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC",
+      "status": "LIVE",
+      "codeSize": 24367
+    },
+    {
+      "category": "NFT/Gaming",
+      "protocol": "Seaport",
+      "contract": "seaport16",
+      "address": "0x0000000000000068F116a894984e2DB1123eB395",
+      "status": "LIVE",
+      "codeSize": 23981
+    },
+    {
+      "category": "NFT/Gaming",
+      "protocol": "Seaport",
+      "contract": "conduitController",
+      "address": "0x00000000F9490004C11Cef243f5400493c00Ad63",
+      "status": "LIVE",
+      "codeSize": 8820
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Safe",
+      "contract": "proxyFactory",
+      "address": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+      "status": "LIVE",
+      "codeSize": 3774
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Safe",
+      "contract": "singleton",
+      "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+      "status": "LIVE",
+      "codeSize": 22958
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Safe",
+      "contract": "multiSend",
+      "address": "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
+      "status": "LIVE",
+      "codeSize": 629
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Safe",
+      "contract": "fallbackHandler",
+      "address": "0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4",
+      "status": "LIVE",
+      "codeSize": 5492
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "AA (4337)",
+      "contract": "entryPoint",
+      "address": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789",
+      "status": "LIVE",
+      "codeSize": 23689
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "AA (4337)",
+      "contract": "simpleAccountFactory",
+      "address": "0x9406Cc6185a346906296840746125a0E44976454",
+      "status": "LIVE",
+      "codeSize": 3238
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Precompiles",
+      "contract": "arbSys",
+      "address": "0x0000000000000000000000000000000000000064",
+      "status": "LIVE",
+      "codeSize": 1
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Precompiles",
+      "contract": "arbInfo",
+      "address": "0x0000000000000000000000000000000000000065",
+      "status": "LIVE",
+      "codeSize": 442
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Precompiles",
+      "contract": "arbAddressTable",
+      "address": "0x0000000000000000000000000000000000000066",
+      "status": "LIVE",
+      "codeSize": 1
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Precompiles",
+      "contract": "arbGasInfo",
+      "address": "0x000000000000000000000000000000000000006C",
+      "status": "LIVE",
+      "codeSize": 1
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Precompiles",
+      "contract": "arbRetryableTx",
+      "address": "0x000000000000000000000000000000000000006E",
+      "status": "LIVE",
+      "codeSize": 1
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Precompiles",
+      "contract": "arbOwner",
+      "address": "0x0000000000000000000000000000000000000070",
+      "status": "LIVE",
+      "codeSize": 1
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Precompiles",
+      "contract": "arbWasm",
+      "address": "0x0000000000000000000000000000000000000071",
+      "status": "LIVE",
+      "codeSize": 1
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Precompiles",
+      "contract": "nodeInterface",
+      "address": "0x00000000000000000000000000000000000000C8",
+      "status": "LIVE",
+      "codeSize": 1
+    },
+    {
+      "category": "Infrastructure",
+      "protocol": "Multicall",
+      "contract": "multicall",
+      "address": "0x842eC2c7D803033Edf55E478F461FC547Bc54EB2",
+      "status": "LIVE",
+      "codeSize": 3139
+    },
+    {
+      "category": "Governance",
+      "protocol": "Arbitrum DAO",
+      "contract": "governor",
+      "address": "0x789fC99093B09aD01C34DC7251D0C89ce743e5a4",
+      "status": "LIVE",
+      "codeSize": 2593
+    },
+    {
+      "category": "Governance",
+      "protocol": "Arbitrum DAO",
+      "contract": "timelock",
+      "address": "0x34d45e99f7D8c45ed05B5cA72D54bbD1fb3F98f0",
+      "status": "LIVE",
+      "codeSize": 2593
+    },
+    {
+      "category": "Governance",
+      "protocol": "Arbitrum DAO",
+      "contract": "treasury",
+      "address": "0xF3FC178157fb3c87548bAA86F9d24BA38E649B58",
+      "status": "LIVE",
+      "codeSize": 2593
+    },
+    {
+      "category": "Diamond",
+      "protocol": "Default",
+      "contract": "Diamond",
+      "address": "0xf7993A8df974AD022647E63402d6315137c58ABf",
+      "status": "LIVE",
+      "codeSize": 5865
+    }
+  ]
+}
