@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+package-lock.json
+.pnpm-store/
+.npm/
+
+# Build outputs
+build/
+dist/
+.wrangler/
+
+# Secrets - NEVER commit to public branches
+.env
+.env.local
+.env.production
+.env.staging
+!.env.example
+.termius/
+/mnt/Vault/
+env.txt
+
+# Private keys / seeds
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Shell history
+.bash_history
+.zsh_history
+.lesshst
+.wget-hsts
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
