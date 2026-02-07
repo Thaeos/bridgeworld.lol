@@ -1,0 +1,67 @@
+{
+  "main": {
+    "id": "main",
+    "type": "main",
+    "active": true,
+    "children": [
+      {
+        "id": "1",
+        "type": "markdown",
+        "state": {
+          "file": "Index.md",
+          "mode": "source",
+          "source": true
+        }
+      }
+    ],
+    "lastOpenFiles": [
+      "Index.md",
+      "Diamond_Tree_Graph.md",
+      "nervous-system-hub.md"
+    ]
+  },
+  "left": {
+    "id": "left",
+    "type": "left",
+    "width": 250,
+    "collapsed": false,
+    "children": [
+      {
+        "id": "file-explorer",
+        "type": "file-explorer",
+        "state": {
+          "file": "Index.md"
+        }
+      }
+    ]
+  },
+  "right": {
+    "id": "right",
+    "type": "right",
+    "width": 300,
+    "collapsed": false,
+    "children": [
+      {
+        "id": "graph",
+        "type": "graph",
+        "state": {
+          "collapse-filter": false,
+          "search": "",
+          "showTags": true,
+          "showAttachments": false,
+          "showOrphans": true,
+          "collapse-color-groups": true,
+          "colorGroups": [],
+          "collapse-display": true,
+          "showArrow": true,
+          "textFadeMultiplier": 0,
+          "nodeSize": 16,
+          "lineSize": 1,
+          "scale": 1,
+          "close": false
+        }
+      }
+    ]
+  },
+  "active": "main"
+}
